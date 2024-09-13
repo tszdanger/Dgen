@@ -1,0 +1,372 @@
+[
+    {
+        "id": 1,
+        "name": "seaborn.objects.Plot",
+        "describe": "The main class for creating a plot using the seaborn objects API."
+    },
+    {
+        "id": 2,
+        "name": "seaborn.objects.Plot.add",
+        "describe": "Add a new layer to the plot."
+    },
+    {
+        "id": 3,
+        "name": "seaborn.objects.Plot.scale",
+        "describe": "Set the scales for the plot variables."
+    },
+    {
+        "id": 4,
+        "name": "seaborn.objects.Plot.facet",
+        "describe": "Create a facet grid and subplots for each variable combination."
+    },
+    {
+        "id": 5,
+        "name": "seaborn.objects.Plot.pair",
+        "describe": "Create a grid of pairwise relationship plots."
+    },
+    {
+        "id": 6,
+        "name": "seaborn.objects.Plot.layout",
+        "describe": "Specify the organization of the plot components."
+    },
+    {
+        "id": 7,
+        "name": "seaborn.objects.Plot.label",
+        "describe": "Set labels for the plot elements."
+    },
+    {
+        "id": 8,
+        "name": "seaborn.objects.Plot.limit",
+        "describe": "Set limits for the plot scales."
+    },
+    {
+        "id": 9,
+        "name": "seaborn.objects.Plot.share",
+        "describe": "Link axes across subplots."
+    },
+    {
+        "id": 10,
+        "name": "seaborn.objects.Plot.theme",
+        "describe": "Set the theme for the plot."
+    },
+    {
+        "id": 11,
+        "name": "seaborn.objects.Plot.on",
+        "describe": "Specify a mapping between semantic variables and plot roles."
+    },
+    {
+        "id": 12,
+        "name": "seaborn.objects.Plot.plot",
+        "describe": "Evaluate the layers and return the matplotlib figure."
+    },
+    {
+        "id": 13,
+        "name": "seaborn.objects.Plot.save",
+        "describe": "Save the plot to a file."
+    },
+    {
+        "id": 14,
+        "name": "seaborn.objects.Plot.show",
+        "describe": "Render the plot and display it."
+    },
+    {
+        "id": 15,
+        "name": "seaborn.objects.Dot",
+        "describe": "Layer for representing data with one dot per observation."
+    },
+    {
+        "id": 16,
+        "name": "seaborn.objects.Dots",
+        "describe": "Layer for representing data with multiple dots per observation."
+    },
+    {
+        "id": 17,
+        "name": "seaborn.objects.Line",
+        "describe": "Layer for representing data with a single line."
+    },
+    {
+        "id": 18,
+        "name": "seaborn.objects.Lines",
+        "describe": "Layer for representing data with multiple lines."
+    },
+    {
+        "id": 19,
+        "name": "seaborn.objects.Path",
+        "describe": "Layer for representing data with a single path."
+    },
+    {
+        "id": 20,
+        "name": "seaborn.objects.Paths",
+        "describe": "Layer for representing data with multiple paths."
+    },
+    {
+        "id": 21,
+        "name": "seaborn.objects.Dash",
+        "describe": "Layer for representing data with dashed lines."
+    },
+    {
+        "id": 22,
+        "name": "seaborn.objects.Range",
+        "describe": "Layer for representing data with a range of values."
+    },
+    {
+        "id": 23,
+        "name": "seaborn.objects.Bar",
+        "describe": "Layer for representing data with a single bar."
+    },
+    {
+        "id": 24,
+        "name": "seaborn.objects.Bars",
+        "describe": "Layer for representing data with multiple bars."
+    },
+    {
+        "id": 25,
+        "name": "seaborn.objects.Area",
+        "describe": "Layer for representing data with filled areas."
+    },
+    {
+        "id": 26,
+        "name": "seaborn.objects.Band",
+        "describe": "Layer for representing data with a shaded band."
+    },
+    {
+        "id": 27,
+        "name": "seaborn.objects.Text",
+        "describe": "Layer for representing data with text annotations."
+    },
+    {
+        "id": 28,
+        "name": "seaborn.objects.Agg",
+        "describe": "Aggregate data before plotting."
+    },
+    {
+        "id": 29,
+        "name": "seaborn.objects.Est",
+        "describe": "Estimate a statistic from data."
+    },
+    {
+        "id": 30,
+        "name": "seaborn.objects.Count",
+        "describe": "Count observations within bins."
+    },
+    {
+        "id": 31,
+        "name": "seaborn.objects.Hist",
+        "describe": "Compute a histogram from data."
+    },
+    {
+        "id": 32,
+        "name": "seaborn.objects.KDE",
+        "describe": "Compute a kernel density estimate from data."
+    },
+    {
+        "id": 33,
+        "name": "seaborn.objects.Perc",
+        "describe": "Compute percentiles from data."
+    },
+    {
+        "id": 34,
+        "name": "seaborn.objects.PolyFit",
+        "describe": "Estimate a polynomial fit from data."
+    },
+    {
+        "id": 35,
+        "name": "seaborn.objects.Dodge",
+        "describe": "Adjust position by dodging overlaps to the side."
+    },
+    {
+        "id": 36,
+        "name": "seaborn.objects.Jitter",
+        "describe": "Adjust position by adding random jitter."
+    },
+    {
+        "id": 37,
+        "name": "seaborn.objects.Norm",
+        "describe": "Normalize data within a grouping variable."
+    },
+    {
+        "id": 38,
+        "name": "seaborn.objects.Stack",
+        "describe": "Stack data within a grouping variable."
+    },
+    {
+        "id": 39,
+        "name": "seaborn.objects.Shift",
+        "describe": "Shift data within a grouping variable."
+    },
+    {
+        "id": 40,
+        "name": "seaborn.objects.Boolean",
+        "describe": "Variable type representing boolean data."
+    },
+    {
+        "id": 41,
+        "name": "seaborn.objects.Continuous",
+        "describe": "Variable type representing continuous data."
+    },
+    {
+        "id": 42,
+        "name": "seaborn.objects.Nominal",
+        "describe": "Variable type representing nominal (categorical) data."
+    },
+    {
+        "id": 43,
+        "name": "seaborn.objects.Temporal",
+        "describe": "Variable type representing temporal data."
+    },
+    {
+        "id": 44,
+        "name": "seaborn.objects.Mark",
+        "describe": "Base class for plot mark objects."
+    },
+    {
+        "id": 45,
+        "name": "seaborn.objects.Stat",
+        "describe": "Base class for statistic objects."
+    },
+    {
+        "id": 46,
+        "name": "seaborn.objects.Move",
+        "describe": "Base class for objects that adjust position of plot elements."
+    },
+    {
+        "id": 47,
+        "name": "seaborn.objects.Scale",
+        "describe": "Base class for plot scale objects."
+    },
+    {
+        "id": 48,
+        "name": "seaborn.displot",
+        "describe": "Figure-level interface for distribution plots."
+    },
+    {
+        "id": 49,
+        "name": "seaborn.histplot",
+        "describe": "Plot univariate histograms."
+    },
+    {
+        "id": 50,
+        "name": "seaborn.ecdfplot",
+        "describe": "Plot empirical cumulative distribution functions."
+    },
+    {
+        "id": 51,
+        "name": "seaborn.boxenplot",
+        "describe": "Plot an enhanced box plot."
+    },
+    {
+        "id": 52,
+        "name": "seaborn.axes_style",
+        "describe": "Set the default parameters for plot style and scale."
+    },
+    {
+        "id": 53,
+        "name": "seaborn.plotting_context",
+        "describe": "Set the default parameters that control the plot scale."
+    },
+    {
+        "id": 54,
+        "name": "seaborn.color_palette",
+        "describe": "Define the color palette for a plot."
+    },
+    {
+        "id": 55,
+        "name": "seaborn.husl_palette",
+        "describe": "Get a set of evenly spaced colors in HUSL hue space."
+    },
+    {
+        "id": 56,
+        "name": "seaborn.hls_palette",
+        "describe": "Get a set of evenly spaced colors in HLS hue space."
+    },
+    {
+        "id": 57,
+        "name": "seaborn.cubehelix_palette",
+        "describe": "Make a sequential palette from the cubehelix system."
+    },
+    {
+        "id": 58,
+        "name": "seaborn.dark_palette",
+        "describe": "Create a sequential palette with dark low values."
+    },
+    {
+        "id": 59,
+        "name": "seaborn.light_palette",
+        "describe": "Create a sequential palette with bright/light low values."
+    },
+    {
+        "id": 60,
+        "name": "seaborn.diverging_palette",
+        "describe": "Create a diverging color palette."
+    },
+    {
+        "id": 61,
+        "name": "seaborn.blend_palette",
+        "describe": "Make a palette that blends between two colors."
+    },
+    {
+        "id": 62,
+        "name": "seaborn.xkcd_palette",
+        "describe": "Make a palette with color names from the xkcd color survey."
+    },
+    {
+        "id": 63,
+        "name": "seaborn.crayon_palette",
+        "describe": "Make a palette with color names from Crayola crayons."
+    },
+    {
+        "id": 64,
+        "name": "seaborn.mpl_palette",
+        "describe": "Return discrete colors from a matplotlib palette."
+    },
+    {
+        "id": 65,
+        "name": "seaborn.choose_colorbrewer_palette",
+        "describe": "Select a ColorBrewer palette."
+    },
+    {
+        "id": 66,
+        "name": "seaborn.choose_cubehelix_palette",
+        "describe": "Launch an interactive widget to create a sequential cubehelix palette."
+    },
+    {
+        "id": 67,
+        "name": "seaborn.choose_light_palette",
+        "describe": "Launch an interactive widget to create a light sequential palette."
+    },
+    {
+        "id": 68,
+        "name": "seaborn.choose_dark_palette",
+        "describe": "Launch an interactive widget to create a dark sequential palette."
+    },
+    {
+        "id": 69,
+        "name": "seaborn.choose_diverging_palette",
+        "describe": "Launch an interactive widget to choose a diverging color palette."
+    },
+    {
+        "id": 70,
+        "name": "seaborn.despine",
+        "describe": "Remove the top and right spines from plot(s)."
+    },
+    {
+        "id": 71,
+        "name": "seaborn.move_legend",
+        "describe": "Relocate the legend to another part of the plot."
+    },
+    {
+        "id": 72,
+        "name": "seaborn.saturate",
+        "describe": "Increase the saturation of colors in an array."
+    },
+    {
+        "id": 73,
+        "name": "seaborn.desaturate",
+        "describe": "Decrease the saturation of colors in an array."
+    },
+    {
+        "id": 74,
+        "name": "seaborn.get_data_home",
+        "describe": "Return the path to the Seaborn data directory."
+    }
+]

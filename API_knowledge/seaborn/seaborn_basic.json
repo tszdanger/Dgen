@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "seaborn.barplot()",
+        "describe": "Show point estimates and confidence intervals as rectangular bars."
+    },
+    {
+        "id": 2,
+        "name": "seaborn.boxplot()",
+        "describe": "Draw a box plot to show distributions with respect to categories."
+    },
+    {
+        "id": 3,
+        "name": "seaborn.violinplot()",
+        "describe": "Draw a combination of boxplot and kernel density estimate."
+    },
+    {
+        "id": 4,
+        "name": "seaborn.stripplot()",
+        "describe": "Draw a scatterplot where one variable is categorical."
+    },
+    {
+        "id": 5,
+        "name": "seaborn.swarmplot()",
+        "describe": "Draw a categorical scatterplot with non-overlapping points."
+    },
+    {
+        "id": 6,
+        "name": "seaborn.pointplot()",
+        "describe": "Show point estimates and confidence intervals using scatterplot glyphs."
+    },
+    {
+        "id": 7,
+        "name": "seaborn.countplot()",
+        "describe": "Show the counts of observations in each categorical bin using bars."
+    },
+    {
+        "id": 8,
+        "name": "seaborn.catplot()",
+        "describe": "Combine a categorical plot with a FacetGrid."
+    },
+    {
+        "id": 9,
+        "name": "seaborn.distplot()",
+        "describe": "Flexibly plot a univariate distribution of observations."
+    },
+    {
+        "id": 10,
+        "name": "seaborn.kdeplot()",
+        "describe": "Fit and plot a univariate or bivariate kernel density estimate."
+    },
+    {
+        "id": 11,
+        "name": "seaborn.rugplot()",
+        "describe": "Plot marginal distributions by drawing ticks along the x and y axes."
+    },
+    {
+        "id": 12,
+        "name": "seaborn.jointplot()",
+        "describe": "Draw a plot of two variables with bivariate and univariate graphs."
+    },
+    {
+        "id": 13,
+        "name": "seaborn.pairplot()",
+        "describe": "Plot pairwise relationships in a dataset."
+    },
+    {
+        "id": 14,
+        "name": "seaborn.scatterplot()",
+        "describe": "Draw a scatter plot with possibility of several semantic groupings."
+    },
+    {
+        "id": 15,
+        "name": "seaborn.lineplot()",
+        "describe": "Draw a line plot with possibility of several semantic groupings."
+    },
+    {
+        "id": 16,
+        "name": "seaborn.relplot()",
+        "describe": "Combine a relational plot (scatterplot or lineplot) with a FacetGrid."
+    },
+    {
+        "id": 17,
+        "name": "seaborn.lmplot()",
+        "describe": "Plot data and regression model fits across a FacetGrid."
+    },
+    {
+        "id": 18,
+        "name": "seaborn.regplot()",
+        "describe": "Plot data and a linear regression model fit."
+    },
+    {
+        "id": 19,
+        "name": "seaborn.residplot()",
+        "describe": "Plot the residuals of a linear regression."
+    },
+    {
+        "id": 20,
+        "name": "seaborn.heatmap()",
+        "describe": "Plot rectangular data as a color-encoded matrix."
+    },
+    {
+        "id": 21,
+        "name": "seaborn.clustermap()",
+        "describe": "Plot a matrix dataset as a hierarchically-clustered heatmap."
+    },
+    {
+        "id": 22,
+        "name": "seaborn.FacetGrid()",
+        "describe": "Multi-plot grid for plotting conditional relationships."
+    },
+    {
+        "id": 23,
+        "name": "seaborn.PairGrid()",
+        "describe": "Subplot grid for plotting pairwise relationships in a dataset."
+    },
+    {
+        "id": 24,
+        "name": "seaborn.JointGrid()",
+        "describe": "Grid for drawing a bivariate plot with marginal univariate plots."
+    },
+    {
+        "id": 25,
+        "name": "seaborn.set()",
+        "describe": "Set aesthetic parameters in one step."
+    },
+    {
+        "id": 26,
+        "name": "seaborn.set_style()",
+        "describe": "Set the aesthetic style of the plots."
+    },
+    {
+        "id": 27,
+        "name": "seaborn.set_context()",
+        "describe": "Set the plotting context parameters."
+    },
+    {
+        "id": 28,
+        "name": "seaborn.set_palette()",
+        "describe": "Set the default color palette for all plots."
+    },
+    {
+        "id": 29,
+        "name": "seaborn.set_color_codes()",
+        "describe": "Change how matplotlib color shorthands are interpreted."
+    },
+    {
+        "id": 30,
+        "name": "seaborn.reset_defaults()",
+        "describe": "Restore all RC params to default settings."
+    }
+]

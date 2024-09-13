@@ -1,0 +1,367 @@
+[
+    {
+        "id": "1",
+        "name": "len()",
+        "describe": "Returns the length of an object."
+    },
+    {
+        "id": "2",
+        "name": "max()",
+        "describe": "Returns the largest item in an iterable or the largest of two or more arguments."
+    },
+    {
+        "id": "3",
+        "name": "min()",
+        "describe": "Returns the smallest item in an iterable or the smallest of two or more arguments."
+    },
+    {
+        "id": "4",
+        "name": "sum()",
+        "describe": "Sums the items of an iterable."
+    },
+    {
+        "id": "5",
+        "name": "sorted()",
+        "describe": "Returns a new sorted list from the items in an iterable."
+    },
+    {
+        "id": "6",
+        "name": "reversed()",
+        "describe": "Returns a reverse iterator over a sequence."
+    },
+    {
+        "id": "7",
+        "name": "enumerate()",
+        "describe": "Returns an enumerate object that produces pairs of index and value."
+    },
+    {
+        "id": "8",
+        "name": "zip()",
+        "describe": "Returns an iterator of tuples where each tuple contains the corresponding elements from the input iterables."
+    },
+    {
+        "id": "9",
+        "name": "any()",
+        "describe": "Returns True if any element of an iterable is true."
+    },
+    {
+        "id": "10",
+        "name": "all()",
+        "describe": "Returns True if all elements of an iterable are true."
+    },
+    {
+        "id": "11",
+        "name": "list()",
+        "describe": "Converts an iterable to a list."
+    },
+    {
+        "id": "12",
+        "name": "tuple()",
+        "describe": "Converts an iterable to a tuple."
+    },
+    {
+        "id": "13",
+        "name": "set()",
+        "describe": "Converts an iterable to a set."
+    },
+    {
+        "id": "14",
+        "name": "dict()",
+        "describe": "Creates a dictionary."
+    },
+    {
+        "id": "15",
+        "name": "frozenset()",
+        "describe": "Converts an iterable to a frozenset."
+    },
+    {
+        "id": "16",
+        "name": "iter()",
+        "describe": "Returns an iterator for the given object."
+    },
+    {
+        "id": "17",
+        "name": "next()",
+        "describe": "Retrieves the next item from an iterator."
+    },
+    {
+        "id": "18",
+        "name": "filter()",
+        "describe": "Constructs an iterator from elements of an iterable for which a function returns true."
+    },
+    {
+        "id": "19",
+        "name": "map()",
+        "describe": "Applies a function to every item of an iterable and returns an iterator with the results."
+    },
+    {
+        "id": "20",
+        "name": "range()",
+        "describe": "Generates a sequence of numbers."
+    },
+    {
+        "id": "21",
+        "name": "slice()",
+        "describe": "Returns a slice object representing the set of indices specified by range(start, stop, step)."
+    },
+    {
+        "id": "22",
+        "name": "hash()",
+        "describe": "Returns the hash value of an object."
+    },
+    {
+        "id": "23",
+        "name": "id()",
+        "describe": "Returns the identity of an object."
+    },
+    {
+        "id": "24",
+        "name": "type()",
+        "describe": "Returns the type of an object."
+    },
+    {
+        "id": "25",
+        "name": "isinstance()",
+        "describe": "Checks if an object is an instance of a class or of a subclass thereof."
+    },
+    {
+        "id": "26",
+        "name": "issubclass()",
+        "describe": "Checks if a class is a subclass of another class."
+    },
+    {
+        "id": "27",
+        "name": "callable()",
+        "describe": "Returns True if the object is callable, False if not."
+    },
+    {
+        "id": "28",
+        "name": "chr()",
+        "describe": "Returns a string representing a character whose Unicode code point is an integer."
+    },
+    {
+        "id": "29",
+        "name": "ord()",
+        "describe": "Returns the Unicode code point for a given Unicode character."
+    },
+    {
+        "id": "30",
+        "name": "bin()",
+        "describe": "Converts an integer to a binary string."
+    },
+    {
+        "id": "31",
+        "name": "oct()",
+        "describe": "Converts an integer to an octal string."
+    },
+    {
+        "id": "32",
+        "name": "hex()",
+        "describe": "Converts an integer to a hexadecimal string."
+    },
+    {
+        "id": "33",
+        "name": "abs()",
+        "describe": "Returns the absolute value of a number."
+    },
+    {
+        "id": "34",
+        "name": "round()",
+        "describe": "Rounds a number to a given precision in decimal digits."
+    },
+    {
+        "id": "35",
+        "name": "pow()",
+        "describe": "Returns base to the power exp."
+    },
+    {
+        "id": "36",
+        "name": "divmod()",
+        "describe": "Returns the quotient and remainder of dividing the first argument by the second."
+    },
+    {
+        "id": "37",
+        "name": "complex()",
+        "describe": "Creates a complex number."
+    },
+    {
+        "id": "38",
+        "name": "int()",
+        "describe": "Converts a number or string to an integer."
+    },
+    {
+        "id": "39",
+        "name": "float()",
+        "describe": "Converts a number or string to a floating-point number."
+    },
+    {
+        "id": "40",
+        "name": "str()",
+        "describe": "Converts an object to a string."
+    },
+    {
+        "id": "41",
+        "name": "bool()",
+        "describe": "Converts a value to a Boolean."
+    },
+    {
+        "id": "42",
+        "name": "bytes()",
+        "describe": "Returns a new bytes object."
+    },
+    {
+        "id": "43",
+        "name": "bytearray()",
+        "describe": "Returns a new array of bytes."
+    },
+    {
+        "id": "44",
+        "name": "memoryview()",
+        "describe": "Returns a memory view object."
+    },
+    {
+        "id": "45",
+        "name": "repr()",
+        "describe": "Returns a printable representation of an object."
+    },
+    {
+        "id": "46",
+        "name": "ascii()",
+        "describe": "Returns a string containing a printable representation of an object."
+    },
+    {
+        "id": "47",
+        "name": "format()",
+        "describe": "Formats a specified value."
+    },
+    {
+        "id": "48",
+        "name": "vars()",
+        "describe": "Returns the __dict__ attribute of an object."
+    },
+    {
+        "id": "49",
+        "name": "dir()",
+        "describe": "Tries to return a list of valid attributes of the object."
+    },
+    {
+        "id": "50",
+        "name": "hasattr()",
+        "describe": "Returns true if the string is the name of one of the object's attributes."
+    },
+    {
+        "id": "51",
+        "name": "getattr()",
+        "describe": "Returns the value of the named attribute of an object."
+    },
+    {
+        "id": "52",
+        "name": "setattr()",
+        "describe": "Sets the value of an attribute of an object."
+    },
+    {
+        "id": "53",
+        "name": "delattr()",
+        "describe": "Deletes an attribute from an object."
+    },
+    {
+        "id": "54",
+        "name": "property()",
+        "describe": "Returns a property attribute."
+    },
+    {
+        "id": "55",
+        "name": "super()",
+        "describe": "Returns a proxy object that delegates method calls to a parent or sibling class of type."
+    },
+    {
+        "id": "56",
+        "name": "dict.keys()",
+        "describe": "Returns a new view of the dictionary's keys."
+    },
+    {
+        "id": "57",
+        "name": "dict.pop()",
+        "describe": "Removes the item with the specified key from the dictionary."
+    },
+    {
+        "id": "58",
+        "name": "open()",
+        "describe": "Opens a file and returns a corresponding file object."
+    },
+    {
+        "id": "59",
+        "name": "print()",
+        "describe": "Prints the values to a stream, or to sys.stdout by default."
+    },
+    {
+        "id": "60",
+        "name": "input()",
+        "describe": "Reads a line from input, converts it to a string and returns that."
+    },
+    {
+        "id": "61",
+        "name": "eval()",
+        "describe": "Evaluates the passed string as a Python expression."
+    },
+    {
+        "id": "62",
+        "name": "exec()",
+        "describe": "Executes the specified Python code."
+    },
+    {
+        "id": "63",
+        "name": "compile()",
+        "describe": "Compiles the source into a code or AST object."
+    },
+    {
+        "id": "64",
+        "name": "help()",
+        "describe": "Invokes the built-in help system."
+    },
+    {
+        "id": "65",
+        "name": "locals()",
+        "describe": "Updates and returns a dictionary containing the current scope's local variables."
+    },
+    {
+        "id": "66",
+        "name": "globals()",
+        "describe": "Returns the dictionary containing the current scope's global variables."
+    },
+    {
+        "id": "67",
+        "name": "dict.get()",
+        "describe": "Returns the value for key if key is in the dictionary, else default."
+    },
+    {
+        "id": "68",
+        "name": "dict.items()",
+        "describe": "Returns a new view of the dictionary's items ((key, value) pairs)."
+    },
+    {
+        "id": "69",
+        "name": "iter()",
+        "describe": "Returns an iterator object."
+    },
+    {
+        "id": "70",
+        "name": "next()",
+        "describe": "Retrieves the next item from an iterator."
+    },
+    {
+        "id": "71",
+        "name": "dict.clear()",
+        "describe": "Removes all items from the dictionary."
+    },
+    {
+        "id": "72",
+        "name": "dict.copy()",
+        "describe": "Returns a shallow copy of the dictionary."
+    },
+    {
+        "id": "73",
+        "name": "dict.fromkeys()",
+        "describe": "Returns a new dictionary with keys from iterable and values set to value."
+    }
+]

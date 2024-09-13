@@ -1,0 +1,372 @@
+[
+    {
+        "id": 1,
+        "name": "plt.cla()",
+        "describe": "Clear the current axes."
+    },
+    {
+        "id": 2,
+        "name": "plt.clf()",
+        "describe": "Clear the current figure."
+    },
+    {
+        "id": 3,
+        "name": "plt.fignum_exists()",
+        "describe": "Return whether the figure with the given id exists."
+    },
+    {
+        "id": 4,
+        "name": "plt.gca()",
+        "describe": "Get the current axes."
+    },
+    {
+        "id": 5,
+        "name": "plt.gcf()",
+        "describe": "Get the current figure."
+    },
+    {
+        "id": 6,
+        "name": "plt.get_figlabels()",
+        "describe": "Return a list of existing figure labels."
+    },
+    {
+        "id": 7,
+        "name": "plt.get_fignums()",
+        "describe": "Return a list of existing figure numbers."
+    },
+    {
+        "id": 8,
+        "name": "plt.sca()",
+        "describe": "Set the current axes."
+    },
+    {
+        "id": 9,
+        "name": "plt.twinx()",
+        "describe": "Create a second y-axis with a shared x-axis."
+    },
+    {
+        "id": 10,
+        "name": "plt.twiny()",
+        "describe": "Create a second x-axis with a shared y-axis."
+    },
+    {
+        "id": 11,
+        "name": "plt.loglog()",
+        "describe": "Make a plot with log scaling on both the x and y axis."
+    },
+    {
+        "id": 12,
+        "name": "plt.semilogx()",
+        "describe": "Make a plot with log scaling on the x axis."
+    },
+    {
+        "id": 13,
+        "name": "plt.semilogy()",
+        "describe": "Make a plot with log scaling on the y axis."
+    },
+    {
+        "id": 14,
+        "name": "plt.vlines()",
+        "describe": "Plot vertical lines."
+    },
+    {
+        "id": 15,
+        "name": "plt.hlines()",
+        "describe": "Plot horizontal lines."
+    },
+    {
+        "id": 16,
+        "name": "plt.fill()",
+        "describe": "Plot filled polygons."
+    },
+    {
+        "id": 17,
+        "name": "plt.polar()",
+        "describe": "Make a polar plot."
+    },
+    {
+        "id": 18,
+        "name": "plt.axline()",
+        "describe": "Add an infinitely long straight line to the axes."
+    },
+    {
+        "id": 19,
+        "name": "plt.acorr()",
+        "describe": "Plot the autocorrelation of x."
+    },
+    {
+        "id": 20,
+        "name": "plt.angle_spectrum()",
+        "describe": "Plot the angle spectrum."
+    },
+    {
+        "id": 21,
+        "name": "plt.cohere()",
+        "describe": "Plot the coherence between x and y."
+    },
+    {
+        "id": 22,
+        "name": "plt.csd()",
+        "describe": "Plot the cross-spectral density."
+    },
+    {
+        "id": 23,
+        "name": "plt.magnitude_spectrum()",
+        "describe": "Plot the magnitude spectrum."
+    },
+    {
+        "id": 24,
+        "name": "plt.phase_spectrum()",
+        "describe": "Plot the phase spectrum."
+    },
+    {
+        "id": 25,
+        "name": "plt.psd()",
+        "describe": "Plot the power spectral density."
+    },
+    {
+        "id": 26,
+        "name": "plt.specgram()",
+        "describe": "Plot a spectrogram."
+    },
+    {
+        "id": 27,
+        "name": "plt.xcorr()",
+        "describe": "Plot the cross-correlation between x and y."
+    },
+    {
+        "id": 28,
+        "name": "plt.ecdf()",
+        "describe": "Plot an empirical cumulative distribution function."
+    },
+    {
+        "id": 29,
+        "name": "plt.stairs()",
+        "describe": "Create a staircase plot."
+    },
+    {
+        "id": 30,
+        "name": "plt.clabel()",
+        "describe": "Label a contour plot."
+    },
+    {
+        "id": 31,
+        "name": "plt.pcolor()",
+        "describe": "Create a pseudocolor plot with a non-regular rectangular grid."
+    },
+    {
+        "id": 32,
+        "name": "plt.spy()",
+        "describe": "Plot the sparsity pattern using markers or blocks."
+    },
+    {
+        "id": 33,
+        "name": "plt.figimage()",
+        "describe": "Add a non-resampled image to the figure."
+    },
+    {
+        "id": 34,
+        "name": "plt.autoscale()",
+        "describe": "Autoscale the axis view to the data."
+    },
+    {
+        "id": 35,
+        "name": "plt.axis()",
+        "describe": "Set axis properties or return the current axis limits."
+    },
+    {
+        "id": 36,
+        "name": "plt.box()",
+        "describe": "Turn the axes box on or off."
+    },
+    {
+        "id": 37,
+        "name": "plt.locator_params()",
+        "describe": "Control behavior of major tick locators."
+    },
+    {
+        "id": 38,
+        "name": "plt.minorticks_off()",
+        "describe": "Remove minor ticks from the axes."
+    },
+    {
+        "id": 39,
+        "name": "plt.minorticks_on()",
+        "describe": "Display minor ticks on the axes."
+    },
+    {
+        "id": 40,
+        "name": "plt.tick_params()",
+        "describe": "Change the appearance of ticks, tick labels, and gridlines."
+    },
+    {
+        "id": 41,
+        "name": "plt.ticklabel_format()",
+        "describe": "Change the format of tick labels."
+    },
+    {
+        "id": 42,
+        "name": "plt.xscale()",
+        "describe": "Set the x-axis scale."
+    },
+    {
+        "id": 43,
+        "name": "plt.yscale()",
+        "describe": "Set the y-axis scale."
+    },
+    {
+        "id": 44,
+        "name": "plt.margins()",
+        "describe": "Set or retrieve autoscaling margins."
+    },
+    {
+        "id": 45,
+        "name": "plt.tight_layout()",
+        "describe": "Adjust the padding between and around subplots."
+    },
+    {
+        "id": 46,
+        "name": "plt.clim()",
+        "describe": "Set the color limits of the current image."
+    },
+    {
+        "id": 47,
+        "name": "plt.gci()",
+        "describe": "Get the current colorable artist."
+    },
+    {
+        "id": 48,
+        "name": "plt.sci()",
+        "describe": "Set the current image."
+    },
+    {
+        "id": 49,
+        "name": "plt.get_cmap()",
+        "describe": "Get a colormap instance."
+    },
+    {
+        "id": 50,
+        "name": "plt.set_cmap()",
+        "describe": "Set the default colormap."
+    },
+    {
+        "id": 51,
+        "name": "plt.imread()",
+        "describe": "Read an image from a file into an array."
+    },
+    {
+        "id": 52,
+        "name": "plt.imsave()",
+        "describe": "Save an array as an image file."
+    },
+    {
+        "id": 53,
+        "name": "plt.rc()",
+        "describe": "Set the current rc params."
+    },
+    {
+        "id": 54,
+        "name": "plt.rcdefaults()",
+        "describe": "Restore the rc params from Matplotlib's internal default style."
+    },
+    {
+        "id": 55,
+        "name": "plt.draw()",
+        "describe": "Redraw the current figure."
+    },
+    {
+        "id": 56,
+        "name": "plt.draw_if_interactive()",
+        "describe": "Redraw if interactive mode is on."
+    },
+    {
+        "id": 57,
+        "name": "plt.ioff()",
+        "describe": "Turn interactive mode off."
+    },
+    {
+        "id": 58,
+        "name": "plt.ion()",
+        "describe": "Turn interactive mode on."
+    },
+    {
+        "id": 59,
+        "name": "plt.install_repl_displayhook()",
+        "describe": "Install a repl display hook so that any stale figure is automatically redrawn when control is returned to the repl."
+    },
+    {
+        "id": 60,
+        "name": "plt.isinteractive()",
+        "describe": "Return whether plots are updated after every plotting command."
+    },
+    {
+        "id": 61,
+        "name": "plt.pause()",
+        "describe": "Run the GUI event loop for interval seconds."
+    },
+    {
+        "id": 62,
+        "name": "plt.switch_backend()",
+        "describe": "Close all open figures and set the Matplotlib backend."
+    },
+    {
+        "id": 63,
+        "name": "plt.uninstall_repl_displayhook()",
+        "describe": "Uninstall the matplotlib display hook."
+    },
+    {
+        "id": 64,
+        "name": "plt.connect()",
+        "describe": "Bind function to event."
+    },
+    {
+        "id": 65,
+        "name": "plt.disconnect()",
+        "describe": "Disconnect from a signal."
+    },
+    {
+        "id": 66,
+        "name": "plt.findobj()",
+        "describe": "Find artist objects."
+    },
+    {
+        "id": 67,
+        "name": "plt.get()",
+        "describe": "Return the value of an object's property, or print all of them."
+    },
+    {
+        "id": 68,
+        "name": "plt.getp()",
+        "describe": "Return the value of an object's property, or print all of them."
+    },
+    {
+        "id": 69,
+        "name": "plt.get_current_fig_manager()",
+        "describe": "Return the figure manager of the active figure."
+    },
+    {
+        "id": 70,
+        "name": "plt.ginput()",
+        "describe": "Blocking call to interact with a figure."
+    },
+    {
+        "id": 71,
+        "name": "plt.set_loglevel()",
+        "describe": "Sets the Matplotlib's root logger and root logger handler level."
+    },
+    {
+        "id": 72,
+        "name": "plt.setp()",
+        "describe": "Set one or more properties on an Artist, or list allowed values."
+    },
+    {
+        "id": 73,
+        "name": "plt.waitforbuttonpress()",
+        "describe": "Blocking call to interact with the figure."
+    },
+    {
+        "id": 74,
+        "name": "plt.xkcd()",
+        "describe": "Turn on xkcd sketch-style drawing mode."
+    }
+]

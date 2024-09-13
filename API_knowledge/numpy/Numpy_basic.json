@@ -1,0 +1,252 @@
+[
+    {
+        "id": "1",
+        "name": "np.array()",
+        "describe": "Creates an array from a list or tuple."
+    },
+    {
+        "id": "2",
+        "name": "np.linspace()",
+        "describe": "Creates an array of evenly spaced values over a specified range."
+    },
+    {
+        "id": "3",
+        "name": "np.arange()",
+        "describe": "Creates an array of evenly spaced values within a given range."
+    },
+    {
+        "id": "4",
+        "name": "np.random.uniform()",
+        "describe": "Generates random numbers from a uniform distribution."
+    },
+    {
+        "id": "5",
+        "name": "np.random.randint()",
+        "describe": "Generates random integers within a specified range."
+    },
+    {
+        "id": "6",
+        "name": "np.random.random()",
+        "describe": "Generates random numbers from a uniform distribution between 0 and 1."
+    },
+    {
+        "id": "7",
+        "name": "np.logspace()",
+        "describe": "Creates an array of evenly spaced values on a logarithmic scale."
+    },
+    {
+        "id": "8",
+        "name": "np.zeros()",
+        "describe": "Creates an array filled with zeros."
+    },
+    {
+        "id": "9",
+        "name": "np.ones()",
+        "describe": "Creates an array filled with ones."
+    },
+    {
+        "id": "10",
+        "name": "np.full()",
+        "describe": "Creates an array filled with a specified value."
+    },
+    {
+        "id": "11",
+        "name": "np.identity()",
+        "describe": "Creates an identity matrix."
+    },
+    {
+        "id": "12",
+        "name": "np.min()",
+        "describe": "Returns the minimum value in an array."
+    },
+    {
+        "id": "13",
+        "name": "np.max()",
+        "describe": "Returns the maximum value in an array."
+    },
+    {
+        "id": "14",
+        "name": "np.mean()",
+        "describe": "Computes the mean of an array."
+    },
+    {
+        "id": "15",
+        "name": "np.median()",
+        "describe": "Computes the median of an array."
+    },
+    {
+        "id": "16",
+        "name": "np.std()",
+        "describe": "Computes the standard deviation of an array."
+    },
+    {
+        "id": "17",
+        "name": "np.var()",
+        "describe": "Computes the variance of an array."
+    },
+    {
+        "id": "18",
+        "name": "np.mean()",
+        "describe": "Computes the mean of an array."
+    },
+    {
+        "id": "19",
+        "name": "np.digitize()",
+        "describe": "Returns the indices of the bins to which each value in an array belongs."
+    },
+    {
+        "id": "20",
+        "name": "np.reshape()",
+        "describe": "Reshapes an array into a specified shape."
+    },
+    {
+        "id": "21",
+        "name": "np.expand_dims()",
+        "describe": "Adds a new axis to an array."
+    },
+    {
+        "id": "22",
+        "name": "np.squeeze()",
+        "describe": "Removes single-dimensional entries from the shape of an array."
+    },
+    {
+        "id": "23",
+        "name": "np.count_nonzero()",
+        "describe": "Counts the number of non-zero elements in an array."
+    },
+    {
+        "id": "24",
+        "name": "np.argwhere()",
+        "describe": "Finds the indices of array elements that meet a condition."
+    },
+    {
+        "id": "25",
+        "name": "np.argmax()",
+        "describe": "Returns the indices of the maximum values along an axis."
+    },
+    {
+        "id": "26",
+        "name": "np.argmin()",
+        "describe": "Returns the indices of the minimum values along an axis."
+    },
+    {
+        "id": "27",
+        "name": "np.argsort()",
+        "describe": "Returns the indices that would sort an array."
+    },
+    {
+        "id": "28",
+        "name": "np.sort()",
+        "describe": "Sorts an array."
+    },
+    {
+        "id": "29",
+        "name": "np.abs()",
+        "describe": "Computes the absolute value element-wise."
+    },
+    {
+        "id": "30",
+        "name": "np.round()",
+        "describe": "Rounds the elements of an array to the nearest integer."
+    },
+    {
+        "id": "31",
+        "name": "np.clip()",
+        "describe": "Clips the values in an array to a specified range."
+    },
+    {
+        "id": "32",
+        "name": "np.where()",
+        "describe": "Returns elements chosen from two arrays depending on a condition."
+    },
+    {
+        "id": "33",
+        "name": "np.put()",
+        "describe": "Replaces specified elements in an array."
+    },
+    {
+        "id": "34",
+        "name": "np.copyto()",
+        "describe": "Copies values from one array to another."
+    },
+    {
+        "id": "35",
+        "name": "np.intersect1d()",
+        "describe": "Finds the intersection of two arrays."
+    },
+    {
+        "id": "36",
+        "name": "np.union1d()",
+        "describe": "Finds the union of two arrays."
+    },
+    {
+        "id": "37",
+        "name": "np.setdiff1d()",
+        "describe": "Finds the set difference of two arrays."
+    },
+    {
+        "id": "38",
+        "name": "np.unique()",
+        "describe": "Finds the unique elements of an array."
+    },
+    {
+        "id": "39",
+        "name": "np.hsplit()",
+        "describe": "Splits an array into multiple sub-arrays horizontally."
+    },
+    {
+        "id": "40",
+        "name": "np.vsplit()",
+        "describe": "Splits an array into multiple sub-arrays vertically."
+    },
+    {
+        "id": "41",
+        "name": "np.hstack()",
+        "describe": "Stacks arrays in sequence horizontally."
+    },
+    {
+        "id": "42",
+        "name": "np.vstack()",
+        "describe": "Stacks arrays in sequence vertically."
+    },
+    {
+        "id": "43",
+        "name": "np.allclose()",
+        "describe": "Returns True if two arrays are element-wise equal within a tolerance."
+    },
+    {
+        "id": "44",
+        "name": "np.repeat()",
+        "describe": "Repeats elements of an array."
+    },
+    {
+        "id": "45",
+        "name": "np.tile()",
+        "describe": "Constructs an array by repeating a sequence."
+    },
+    {
+        "id": "46",
+        "name": "np.einsum()",
+        "describe": "Evaluates the Einstein summation convention on the operands."
+    },
+    {
+        "id": "47",
+        "name": "np.dot()",
+        "describe": "Computes the dot product of two arrays."
+    },
+    {
+        "id": "48",
+        "name": "np.concatenate()",
+        "describe": "Joins a sequence of arrays along an existing axis."
+    },
+    {
+        "id": "49",
+        "name": "np.histogram()",
+        "describe": "Computes the histogram of a set of data."
+    },
+    {
+        "id": "50",
+        "name": "np.percentile()",
+        "describe": "Computes the q-th percentile of the data."
+    }
+]

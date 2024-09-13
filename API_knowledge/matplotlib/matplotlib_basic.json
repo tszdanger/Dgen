@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "name": "plt.plot()",
+        "describe": "Plots lines and/or markers to the axes."
+    },
+    {
+        "id": 2,
+        "name": "plt.scatter()",
+        "describe": "Plots scattered data points."
+    },
+    {
+        "id": 3,
+        "name": "plt.bar()",
+        "describe": "Plots vertical bar graphs."
+    },
+    {
+        "id": 4,
+        "name": "plt.barh()",
+        "describe": "Plots horizontal bar graphs."
+    },
+    {
+        "id": 5,
+        "name": "plt.hist()",
+        "describe": "Plots a histogram."
+    },
+    {
+        "id": 6,
+        "name": "plt.boxplot()",
+        "describe": "Plots a box-and-whisker plot."
+    },
+    {
+        "id": 7,
+        "name": "plt.pie()",
+        "describe": "Plots a pie chart."
+    },
+    {
+        "id": 8,
+        "name": "plt.contour()",
+        "describe": "Plots contours."
+    },
+    {
+        "id": 9,
+        "name": "plt.imshow()",
+        "describe": "Plots an image."
+    },
+    {
+        "id": 10,
+        "name": "plt.quiver()",
+        "describe": "Plots a 2D field of arrows."
+    },
+    {
+        "id": 11,
+        "name": "plt.errorbar()",
+        "describe": "Plots error bars."
+    },
+    {
+        "id": 12,
+        "name": "plt.stem()",
+        "describe": "Plots vertical lines from a baseline to the y-coordinate."
+    },
+    {
+        "id": 13,
+        "name": "plt.step()",
+        "describe": "Plots a step plot."
+    },
+    {
+        "id": 14,
+        "name": "plt.fill_between()",
+        "describe": "Fills the area between two lines."
+    },
+    {
+        "id": 15,
+        "name": "plt.xlabel()",
+        "describe": "Sets the label for the x-axis."
+    },
+    {
+        "id": 16,
+        "name": "plt.ylabel()",
+        "describe": "Sets the label for the y-axis."
+    },
+    {
+        "id": 17,
+        "name": "plt.title()",
+        "describe": "Sets the title of the plot."
+    },
+    {
+        "id": 18,
+        "name": "plt.legend()",
+        "describe": "Adds a legend to the plot."
+    },
+    {
+        "id": 19,
+        "name": "plt.grid()",
+        "describe": "Configures the grid lines."
+    },
+    {
+        "id": 20,
+        "name": "plt.xlim()",
+        "describe": "Sets the x-limits of the current axes."
+    },
+    {
+        "id": 21,
+        "name": "plt.ylim()",
+        "describe": "Sets the y-limits of the current axes."
+    },
+    {
+        "id": 22,
+        "name": "plt.xticks()",
+        "describe": "Sets the x-tick locations and labels."
+    },
+    {
+        "id": 23,
+        "name": "plt.yticks()",
+        "describe": "Sets the y-tick locations and labels."
+    },
+    {
+        "id": 24,
+        "name": "plt.subplots()",
+        "describe": "Creates a figure and a set of subplots."
+    },
+    {
+        "id": 25,
+        "name": "plt.subplot()",
+        "describe": "Adds a subplot to the current figure."
+    },
+    {
+        "id": 26,
+        "name": "plt.figure()",
+        "describe": "Creates a new figure."
+    },
+    {
+        "id": 27,
+        "name": "plt.close()",
+        "describe": "Closes a figure window."
+    },
+    {
+        "id": 28,
+        "name": "plt.savefig()",
+        "describe": "Saves the current figure."
+    },
+    {
+        "id": 29,
+        "name": "plt.show()",
+        "describe": "Displays all open figures."
+    },
+    {
+        "id": 30,
+        "name": "plt.axes()",
+        "describe": "Adds an axes to the current figure."
+    },
+    {
+        "id": 31,
+        "name": "plt.plot_date()",
+        "describe": "Plots data that contains dates."
+    },
+    {
+        "id": 32,
+        "name": "plt.axhline()",
+        "describe": "Adds a horizontal line across the axes."
+    },
+    {
+        "id": 33,
+        "name": "plt.axvline()",
+        "describe": "Adds a vertical line across the axes."
+    },
+    {
+        "id": 34,
+        "name": "plt.axhspan()",
+        "describe": "Adds a horizontal span (rectangle) across the axes."
+    },
+    {
+        "id": 35,
+        "name": "plt.axvspan()",
+        "describe": "Adds a vertical span (rectangle) across the axes."
+    },
+    {
+        "id": 36,
+        "name": "plt.text()",
+        "describe": "Adds text to the axes."
+    },
+    {
+        "id": 37,
+        "name": "plt.annotate()",
+        "describe": "Adds an annotation to the axes."
+    },
+    {
+        "id": 38,
+        "name": "plt.arrow()",
+        "describe": "Adds an arrow to the axes."
+    },
+    {
+        "id": 39,
+        "name": "plt.hist2d()",
+        "describe": "Plots a 2D histogram."
+    },
+    {
+        "id": 40,
+        "name": "plt.hexbin()",
+        "describe": "Plots a hexagonal binning plot."
+    },
+    {
+        "id": 41,
+        "name": "plt.pcolormesh()",
+        "describe": "Plots a pseudocolor plot of a 2D array."
+    },
+    {
+        "id": 42,
+        "name": "plt.streamplot()",
+        "describe": "Plots streamlines of a vector flow."
+    },
+    {
+        "id": 43,
+        "name": "plt.tricontour()",
+        "describe": "Plots contours on an unstructured triangular grid."
+    },
+    {
+        "id": 44,
+        "name": "plt.tricontourf()",
+        "describe": "Plots filled contours on an unstructured triangular grid."
+    },
+    {
+        "id": 45,
+        "name": "plt.tripcolor()",
+        "describe": "Plots a pseudocolor plot on an unstructured triangular grid."
+    },
+    {
+        "id": 46,
+        "name": "plt.triplot()",
+        "describe": "Plots a unstructured triangular grid as lines and/or markers."
+    },
+    {
+        "id": 47,
+        "name": "plt.violinplot()",
+        "describe": "Plots a violin plot."
+    },
+    {
+        "id": 48,
+        "name": "plt.eventplot()",
+        "describe": "Plots identical parallel lines at specific positions."
+    },
+    {
+        "id": 49,
+        "name": "plt.scatter_matrix()",
+        "describe": "Plots a matrix of scatter plots."
+    },
+    {
+        "id": 50,
+        "name": "plt.table()",
+        "describe": "Adds a table to the current axes."
+    }
+]

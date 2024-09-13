@@ -1,0 +1,252 @@
+[
+    {
+        "id": "1",
+        "name": "pd.read_csv()",
+        "describe": "Reads a CSV file into a DataFrame."
+    },
+    {
+        "id": "2",
+        "name": "pd.read_excel()",
+        "describe": "Reads an Excel file into a DataFrame."
+    },
+    {
+        "id": "3",
+        "name": "pd.DataFrame()",
+        "describe": "Creates a new DataFrame."
+    },
+    {
+        "id": "4",
+        "name": "df.head()",
+        "describe": "Returns the first few rows of the DataFrame."
+    },
+    {
+        "id": "5",
+        "name": "df.tail()",
+        "describe": "Returns the last few rows of the DataFrame."
+    },
+    {
+        "id": "6",
+        "name": "df.info()",
+        "describe": "Displays a concise summary of the DataFrame."
+    },
+    {
+        "id": "7",
+        "name": "df.describe()",
+        "describe": "Computes descriptive statistics of the numerical columns in the DataFrame."
+    },
+    {
+        "id": "8",
+        "name": "df.shape",
+        "describe": "Returns the number of rows and columns in the DataFrame."
+    },
+    {
+        "id": "9",
+        "name": "df.columns",
+        "describe": "Returns the column labels of the DataFrame."
+    },
+    {
+        "id": "10",
+        "name": "df.index",
+        "describe": "Returns the index of the DataFrame."
+    },
+    {
+        "id": "11",
+        "name": "df.dtypes",
+        "describe": "Returns the data types of each column in the DataFrame."
+    },
+    {
+        "id": "12",
+        "name": "df.values",
+        "describe": "Converts the DataFrame to a NumPy array."
+    },
+    {
+        "id": "13",
+        "name": "df.loc[]",
+        "describe": "Selects data based on labels."
+    },
+    {
+        "id": "14",
+        "name": "df.iloc[]",
+        "describe": "Selects data based on integer positions."
+    },
+    {
+        "id": "15",
+        "name": "df.at[]",
+        "describe": "Accesses a single value by label."
+    },
+    {
+        "id": "16",
+        "name": "df.iat[]",
+        "describe": "Accesses a single value by integer position."
+    },
+    {
+        "id": "17",
+        "name": "df.set_index()",
+        "describe": "Sets one or more columns as the DataFrame's index."
+    },
+    {
+        "id": "18",
+        "name": "df.reset_index()",
+        "describe": "Resets the index to the default integer index."
+    },
+    {
+        "id": "19",
+        "name": "df.sort_values()",
+        "describe": "Sorts the DataFrame by specified column(s)."
+    },
+    {
+        "id": "20",
+        "name": "df.sort_index()",
+        "describe": "Sorts the DataFrame by the index."
+    },
+    {
+        "id": "21",
+        "name": "df.isnull()",
+        "describe": "Returns a boolean DataFrame indicating whether each element is a null value."
+    },
+    {
+        "id": "22",
+        "name": "df.notnull()",
+        "describe": "Returns a boolean DataFrame indicating whether each element is not a null value."
+    },
+    {
+        "id": "23",
+        "name": "df.dropna()",
+        "describe": "Removes rows or columns containing null values."
+    },
+    {
+        "id": "24",
+        "name": "df.fillna()",
+        "describe": "Fills null values in the DataFrame."
+    },
+    {
+        "id": "25",
+        "name": "df.drop()",
+        "describe": "Removes specified rows or columns."
+    },
+    {
+        "id": "26",
+        "name": "df.drop_duplicates()",
+        "describe": "Removes duplicate rows."
+    },
+    {
+        "id": "27",
+        "name": "df.rename()",
+        "describe": "Renames columns or index labels of the DataFrame."
+    },
+    {
+        "id": "28",
+        "name": "df.astype()",
+        "describe": "Converts the data type of columns in the DataFrame."
+    },
+    {
+        "id": "29",
+        "name": "df.pivot_table()",
+        "describe": "Creates a pivot table."
+    },
+    {
+        "id": "30",
+        "name": "df.melt()",
+        "describe": "Converts a wide-format DataFrame to a long-format."
+    },
+    {
+        "id": "31",
+        "name": "df.merge()",
+        "describe": "Merges two DataFrames."
+    },
+    {
+        "id": "32",
+        "name": "df.join()",
+        "describe": "Joins two DataFrames by index."
+    },
+    {
+        "id": "33",
+        "name": "df.groupby()",
+        "describe": "Groups the DataFrame by one or more columns."
+    },
+    {
+        "id": "34",
+        "name": "df.agg()",
+        "describe": "Performs aggregation operations on the DataFrame."
+    },
+    {
+        "id": "35",
+        "name": "df.apply()",
+        "describe": "Applies a function to the rows or columns of the DataFrame."
+    },
+    {
+        "id": "36",
+        "name": "df.applymap()",
+        "describe": "Applies a function to each element of the DataFrame."
+    },
+    {
+        "id": "37",
+        "name": "df.copy()",
+        "describe": "Creates a copy of the DataFrame."
+    },
+    {
+        "id": "38",
+        "name": "df.corr()",
+        "describe": "Computes the correlation matrix of the DataFrame."
+    },
+    {
+        "id": "39",
+        "name": "df.cov()",
+        "describe": "Computes the covariance matrix of the DataFrame."
+    },
+    {
+        "id": "40",
+        "name": "df.plot()",
+        "describe": "Plots the DataFrame as a graph."
+    },
+    {
+        "id": "41",
+        "name": "df.hist()",
+        "describe": "Plots histograms of the numerical columns in the DataFrame."
+    },
+    {
+        "id": "42",
+        "name": "df.boxplot()",
+        "describe": "Plots box plots of the DataFrame."
+    },
+    {
+        "id": "43",
+        "name": "df.scatter_matrix()",
+        "describe": "Plots a scatter matrix of the DataFrame."
+    },
+    {
+        "id": "44",
+        "name": "df.to_csv()",
+        "describe": "Writes the DataFrame to a CSV file."
+    },
+    {
+        "id": "45",
+        "name": "df.to_excel()",
+        "describe": "Writes the DataFrame to an Excel file."
+    },
+    {
+        "id": "46",
+        "name": "df.to_sql()",
+        "describe": "Writes the DataFrame to a SQL database."
+    },
+    {
+        "id": "47",
+        "name": "df.to_json()",
+        "describe": "Converts the DataFrame to a JSON format."
+    },
+    {
+        "id": "48",
+        "name": "df.to_html()",
+        "describe": "Converts the DataFrame to an HTML table."
+    },
+    {
+        "id": "49",
+        "name": "df.to_dict()",
+        "describe": "Converts the DataFrame to a dictionary."
+    },
+    {
+        "id": "50",
+        "name": "df.to_numpy()",
+        "describe": "Converts the DataFrame to a NumPy array."
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "stage": "step1", 
+        "template": "1", 
+        "content": "1"
+    },
+    {
+        "stage": "step0", 
+        "template": "1", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions with one function. Please gain inspiration from a list of Python APIs to create a high-quality programming problem. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nAPI list for inspiration: {API_list_str}\n\nGuidelines for each section:1.[Problem Description]: The problem should aim to utilize as many of the APIs from the provided API list as possible. For example, the problem can focus on solving simple introductory programming challenges using basic data structures and operations. Clearly describe the problem itself along with the required inputs and outputs in 1-2 concise sentences.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided."
+    },
+    {
+        "stage": "step0", 
+        "template": "2", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions with one function. Please gain inspiration from a list of Python APIs to create a high-quality programming problem. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nAPI list for inspiration: {API_list_str}\n\nGuidelines for each section: 1.[Problem Description]: The problem can get some inspiration from API list by summary some high-level programming concepts, but no need to use all of them. Focus on solving simple introductory programming challenges using basic data structures and operations. Clearly describe the problem itself along with the required inputs and outputs in 1-2 concise sentences.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided.\n\n For example, [Problem Description]: Write a Python function which follows this instruction: Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.[Solution]: def is_Sum_Of_Powers_Of_Two(n):\n\t if (n % 2 == 1):\n\t\treturn False\n\telse: return True"
+    },
+    {
+        "stage": "step0", 
+        "template": "3", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions with one function. Please gain inspiration from a list of Python APIs to create a high-quality programming problem. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nAPI list for inspiration: {API_list_str}\n\nGuidelines for each section: 1.[Problem Description]: The problem can get some inspiration from API list by summary some high-level programming concepts, but no need to use all of them. Focus on programming challenges using basic data structures and math operations with appropriate algorithm. Clearly describe the problem itself along with the required inputs and outputs in 1-2 concise sentences.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided.\n\n Below are two examples. \n\n Example 1. [Problem Description]: Write a Python function which follows this instruction: Write a python function to find the sum of even numbers at even positions of a list. [Solution]: def sum_even_and_even_index(arr):\n\ti = 0\n\tsum = 0\n\tfor i in range(0, len(arr),2):\n\t\tif (arr[i] % 2 == 0):\n\t\tsum += arr[i]\n\treturn sum\n\n Example 2. [Problem Description]: Write a function to extract the number of unique tuples in the given list. [Solution]: def extract_freq(test_list):\n\tres = len(list(set(tuple(sorted(sub)) for sub in test_list)))\n\treturn (res)"
+    },
+    {
+        "stage": "step2", 
+        "template": "1", 
+        "content": "I will provide you with a Python code skeleton that includes keywords like if, else, for, while, and some expressions marked as <Random stmt>. Your task is to generate meaningful Python code based on this skeleton and the provided list of APIs related to {repo}. You can utilize the APIs by calling them within statements or using them in various conditions. You can modify the statements within the skeleton but should maintain its overall structure. The resulting code should (1) have a clear function name to describe its functionality. (2) accurately and clearly accomplish a specific goal, rather than simply stacking statements. Requirements: 1. Present your output in one section: [Code].\n2. Ensure that all the given APIs are utilized effectively within your code.\nAPI list for inspiration: {API_list_str}\nPython code skeleton: \n {code_skeleton} \n"
+    },
+    {
+        "stage": "step2", 
+        "template": "2", 
+        "content": "I will provide you with a list of Python third-party library APIs. Your task is to design a Python function that utilizes as many of these APIs as possible in a meaningful way. In your response, provide a single code block that includes:\n1. The necessary library import statements for the function to work properly.\n2. A clear and descriptive name for the function that reflects its purpose. \n3. A pseudo-code representation of the Python function you designed, showcasing how the APIs are being used.\n\n Please ensure that the function you design demonstrates a practical and coherent use case for the given APIs. API list to use: {API_list_str}\n"
+    },
+    {
+        "stage": "step2", 
+        "type": "builtin",
+        "difficulty_level": "1",
+        "template": "2", 
+        "content": "I will provide you with a list of Python built-in APIs. Your task is to design a practical Python function that meaningfully incorporates as many of these APIs as possible. The function should have real-world applicability and solve a specific problem or perform a useful task. Based on the provided API list, you can further extend the function to utilize various data structures, algorithms, or other relevant APIs to enhance its functionality and efficiency. In your response, provide a single code block that includes:\n1. A clear and descriptive name for the function that accurately reflects its purpose and functionality. \n2. The complete Python function you designed, showcasing how the APIs are being used in a coherent and logical manner.\n\n Please ensure that the function you design demonstrates a practical and coherent use case for the given APIs. API list to use: {API_list_str}\n"
+    },
+    {
+        "stage": "step2", 
+        "type": "builtin",
+        "difficulty_level": "2",
+        "template": "2", 
+        "content": "I will provide you with a list of Python built-in APIs. Your task is to design a Python function that utilizes all these APIs as much as possible in a meaningful way. In your response, provide a single code block that includes:\n1. The necessary library import statements for the function to work properly.\n2. A clear and descriptive name for the function that reflects its purpose. \n3. A pseudo-code representation of the Python function you designed, showcasing how the APIs are being used.\n\n Please ensure that the function you design demonstrates a practical and coherent use case for the given APIs. API list to use: {API_list_str}\n"
+    },
+    {
+        "stage": "step3", 
+        "template": "1", 
+        "content": "You will be given a Python code snippet containing some code related to the usage of the {repo} API, a third-party Python library. Your task is to design a high-quality programming problem based on this code snippet. The problem should be meaningful and test the understanding of the used APIs as much as possible.\nRequirements:\n1. Present your output in two distinct sections: [Problem Description] and [Solution].2. Ensure that all the given APIs are effectively utilized within your problem and solution.\nYour solution may differ from the provided code snippet, but you should ensure that all the APIs related to {repo} from the original code are used."
+    },
+    {
+        "stage": "step3", 
+        "template": "2", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions. Please gain inspiration from the following random code snippet to create a high-quality programming problem. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nCode snippet for inspiration:\n```{code}\n```\nGuidelines for each section:1.[Problem Description]: This should be **completely self-contained**, providing all the contextual information one needs to understand and solve the problem. Assume common programming knowledge, but ensure that any specific context, variables, or code snippets pertinent to this problem are explicitly included.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided."
+    },
+    {
+        "stage": "step3", 
+        "template": "3", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions. Please gain inspiration from the following random code snippet to create a high-quality programming problem. Present your output in two distinct sections:\n[Problem Description] and [Solution]. \nPlease retain as much of the {repo} API as possible in your answer and ensure the code structure of the new solution closely resembles the given code snippet, especially maintaining keywords like if, else, while, try, for and so on.\n\nCode snippet for inspiration:\n```{code}\n```\nGuidelines for each section:1.[Problem Description]: This should be **completely self-contained**, providing all the contextual information one needs to understand and solve the problem. Assume common programming knowledge, but ensure that any specific context, variables, or code snippets pertinent to this problem are explicitly included.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided."
+    },
+    {
+        "stage": "step3", 
+        "template": "4", 
+        "content": ""
+    },
+    {
+        "stage": "step3", 
+        "template": "5", 
+        "content": "I will provide you with two code snippets:\n1.A Python <code_skeleton> that includes keywords like if, else, for, while, and some expressions marked as <Random stmt>. This code skeleton has a complex structure but lacks actual semantics.\n2.A normal Python function <pseudo_code> that utilizes different APIs from various third-party libraries. This function has a clear purpose but a simpler structure. \n\n\n Python code skeleton: \n {code_skeleton} \n\n\nPython function <psudo_code>: \n {psudo_code} \n\n Your goal is to reference both snippets and create a Python function that has a complex code structure while maintaining a practical and coherent use case. Please ensure that the function you design demonstrates a meaningful application of the given APIs. The list of APIs to use is: {API_list_str}. In your response, provide a single code block that includes:\n1. The necessary library import statements for the function to work properly.\n2. The Python function you designed, showcasing how the APIs are being used within the complex code structure.\n\n "
+    },
+    {
+        "stage": "step3", 
+        "template": "6", 
+        "content": "I will provide you with two code snippets:\n1.A Python <code_skeleton> that includes keywords like if, else, for, while, and some expressions marked as <Random stmt>. This code skeleton has a complex structure but lacks actual semantics.\n2.A normal Python function <pseudo_code> that utilizes different APIs from various third-party libraries. This function has a clear purpose but a simpler structure. \n\n\n Python code skeleton: \n {code_skeleton} \n\n\nPython function <psudo_code>: \n {psudo_code} \n\n Your goal is to create a Python function that closely follows the structure provided in the <code_skeleton> while incorporating the functionality and API usage from the <pseudo_code>. The resulting function should maintain the complex structure of the code skeleton and demonstrate a practical and coherent use case for the given APIs. The list of APIs to use is: {API_list_str}. \n\n In your response, provide a single code block that includes:\n1. Preserve the overall structure, conditionals, and loops from the <code_skeleton> as much as possible.\n2. Replace the <Random stmt> placeholders in the <code_skeleton> with meaningful code snippets or API calls from the <pseudo_code>. Do not leave any placeholders or statements like ``if True''. \n3. If necessary, modify the <pseudo_code> to fit within the structure of the <code_skeleton> while ensuring that the original functionality is maintained.\n\n "
+    },
+    {
+        "stage": "step3", 
+        "type": "builtin",
+        "template": "6", 
+        "content": "I will provide you with two code snippets:\n1.A Python <code_skeleton> that includes keywords like if, else, for, while, and some expressions marked as <Random stmt>. This code skeleton has a complex structure but lacks actual semantics.\n2.A normal Python function <pseudo_code> that utilizes different APIs from various built-in libraries. This function has a clear purpose but a simpler structure. \n\n\n Python code skeleton: \n {code_skeleton} \n\n\nPython function <psudo_code>: \n {psudo_code} \n\n Your goal is to create a Python function that closely follows the structure provided in the <code_skeleton> while incorporating the functionality and API usage from the <pseudo_code>. The resulting function should maintain the complex structure of the code skeleton and demonstrate a practical and coherent use case for the given APIs. The list of APIs to use is: {API_list_str}. \n\n In your response, provide a single code block that includes:\n1. Preserve the overall structure, conditionals, and loops from the <code_skeleton> as much as possible.\n2. Replace the <Random stmt> placeholders in the <code_skeleton> with meaningful code snippets or API calls from the <pseudo_code>. Do not leave any placeholders or statements like ``if True''. \n3. If necessary, modify the <pseudo_code> to fit within the structure of the <code_skeleton> while ensuring that the original functionality is maintained.\n\n "
+    },
+    {
+        "stage": "step4", 
+        "template": "1", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions. Please gain inspiration from the following code snippet to create a high-quality programming problem. \nYour problem should be based on the provided code, and you can make corresponding modifications in the solution to make the code more practical and meaningful while preserving the API calls as much as possible.. \n Present your output in two distinct sections:\n[Problem Description] and [Solution]. \nCode snippet for inspiration:\n```{code}\n```\nGuidelines for each section:1.[Problem Description]: This should be **completely self-contained**, providing all the contextual information one needs to understand and solve the problem. Assume common programming knowledge, but ensure that any specific context, variables, or code snippets pertinent to this problem are explicitly included. It can contain instructions and steps to guide the reader in addressing the problem effectively.\n 2. [Solution]: Provide a comprehensive and **correct** solution that directly addresses the problem outlined in the [Problem Description] section. Present the solution as a single, well-structured code block."
+    },
+    {
+        "stage": "reask", 
+        "template": "0", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions. Please gain inspiration from the following random code snippet to create a high-quality programming problem. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nCode snippet for inspiration:\n```{code}\n```\nGuidelines for each section:1.[Problem Description]: This should be **completely self-contained**, providing all the contextual information one needs to understand and solve the problem. Assume common programming knowledge, but ensure that any specific context, variables, or code snippets pertinent to this problem are explicitly included.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided."
+    },
+    {
+        "stage": "reask", 
+        "template": "1", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions. You are given a problem with its solution code snippet to create a high-quality programming problem. You should create a different problem with a different solution. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nOriginal problem: {problem} Original solution\n```{code}\n```\nGuidelines for each section: 1.[Problem Description]: This should be **completely self-contained**, providing all the contextual information one needs to understand and solve the problem. Assume common programming knowledge, but ensure that any specific context, variables, or code snippets pertinent to this problem are explicitly included.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided."
+    },
+    {
+        "stage": "reask", 
+        "template": "2", 
+        "content": "You are exceptionally skilled at crafting high-quality programming problems and offering precise solutions. You are now given a problem with its solution. Your task is to make some modification on the problem, you can choose to either change the aim of it or just polish the description, and then correspondingly change the solution. Present your output in two distinct sections:\n[Problem Description] and [Solution].\n\nOriginal problem: {problem} Original solution\n```{code}\n```\nGuidelines for each section: 1.[Problem Description]: Clearly describe the problem itself along with the required inputs and outputs in 1-2 concise sentences.\n 2. [Solution]: Offer a comprehensive, **correct** solution that accurately addresses the [Problem Description] you provided.\n\n Below are two examples. \n\n Example 1. [Problem Description]: Write a Python function which follows this instruction: Write a python function to find the sum of even numbers at even positions of a list. [Solution]: def sum_even_and_even_index(arr):\n\ti = 0\n\tsum = 0\n\tfor i in range(0, len(arr),2):\n\t\tif (arr[i] % 2 == 0):\n\t\tsum += arr[i]\n\treturn sum\n\n Example 2. [Problem Description]: Write a function to extract the number of unique tuples in the given list. [Solution]: def extract_freq(test_list):\n\tres = len(list(set(tuple(sorted(sub)) for sub in test_list)))\n\treturn (res)"
+    }
+]

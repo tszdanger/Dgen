@@ -1,0 +1,1792 @@
+[
+    {
+        "id": 0,
+        "name": "ndarray.T()",
+        "describe": "Array property returning the array transposed."
+    },
+    {
+        "id": 1,
+        "name": "np.TooHardError()",
+        "describe": "Exceeded max_work."
+    },
+    {
+        "id": 2,
+        "name": "np.all()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 3,
+        "name": "np.amax()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 4,
+        "name": "np.amin()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 5,
+        "name": "np.angle()",
+        "describe": "Return the angle of the complex argument."
+    },
+    {
+        "id": 6,
+        "name": "np.any()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 7,
+        "name": "np.append()",
+        "describe": "Equivalent function in the top-level NumPy module."
+    },
+    {
+        "id": 8,
+        "name": "np.apply_along_axis()",
+        "describe": "Apply a function to 1-D slices along the given axis."
+    },
+    {
+        "id": 9,
+        "name": "np.apply_over_axes()",
+        "describe": "Apply a function repeatedly over multiple axes."
+    },
+    {
+        "id": 10,
+        "name": "np.arccos()",
+        "describe": "Trigonometric inverse cosine."
+    },
+    {
+        "id": 11,
+        "name": "np.arcsin()",
+        "describe": "Trigonometric inverse sine."
+    },
+    {
+        "id": 12,
+        "name": "np.arctanh()",
+        "describe": "Trigonometric inverse hyperbolic tangent."
+    },
+    {
+        "id": 13,
+        "name": "np.argpartition()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 14,
+        "name": "np.around()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 15,
+        "name": "np.array2string()",
+        "describe": "Return a string representation of an array."
+    },
+    {
+        "id": 16,
+        "name": "np.array_equal()",
+        "describe": "True if two arrays have the same shape and elements, False otherwise."
+    },
+    {
+        "id": 17,
+        "name": "np.array_equiv()",
+        "describe": "Returns True if input arrays are shape consistent and all elements equal."
+    },
+    {
+        "id": 18,
+        "name": "np.array_repr()",
+        "describe": "Return the string representation of an array."
+    },
+    {
+        "id": 19,
+        "name": "np.array_split()",
+        "describe": "Split an array into multiple sub-arrays."
+    },
+    {
+        "id": 20,
+        "name": "np.array_str()",
+        "describe": "Return a string representation of the data in an array."
+    },
+    {
+        "id": 21,
+        "name": "np.asanyarray()",
+        "describe": "Convert the input to an ndarray, but pass ndarray subclasses through."
+    },
+    {
+        "id": 22,
+        "name": "np.asarray()",
+        "describe": "Convert the input to an array."
+    },
+    {
+        "id": 23,
+        "name": "np.asarray_chkfinite()",
+        "describe": "Convert the input to an array, checking for NaNs or Infs."
+    },
+    {
+        "id": 24,
+        "name": "np.ascontiguousarray()",
+        "describe": "Return a contiguous array (ndim >= 1) in memory (C order)."
+    },
+    {
+        "id": 25,
+        "name": "np.asfarray()",
+        "describe": "Return an array converted to a float type."
+    },
+    {
+        "id": 26,
+        "name": "np.asfortranarray()",
+        "describe": "Return an array (ndim >= 1) laid out in Fortran order in memory."
+    },
+    {
+        "id": 27,
+        "name": "np.asmatrix()",
+        "describe": "Interpret the input as a matrix."
+    },
+    {
+        "id": 28,
+        "name": "np.asscalar()",
+        "describe": "Convert an array of size 1 to its scalar equivalent."
+    },
+    {
+        "id": 29,
+        "name": "np.atleast_1d()",
+        "describe": "Convert inputs to arrays with at least one dimension."
+    },
+    {
+        "id": 30,
+        "name": "np.atleast_2d()",
+        "describe": "View inputs as arrays with at least two dimensions."
+    },
+    {
+        "id": 31,
+        "name": "np.atleast_3d()",
+        "describe": "View inputs as arrays with at least three dimensions."
+    },
+    {
+        "id": 32,
+        "name": "np.average()",
+        "describe": "Compute the weighted average along the specified axis."
+    },
+    {
+        "id": 33,
+        "name": "np.bartlett()",
+        "describe": "Return the Bartlett window."
+    },
+    {
+        "id": 34,
+        "name": "np.base_repr()",
+        "describe": "Return a string representation of a number in the given base system."
+    },
+    {
+        "id": 35,
+        "name": "Generator.beta()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 36,
+        "name": "np.binary_repr()",
+        "describe": "Return the binary representation of the input number as a string."
+    },
+    {
+        "id": 37,
+        "name": "np.bincount()",
+        "describe": "Count number of occurrences of each value in array of non-negative ints."
+    },
+    {
+        "id": 38,
+        "name": "Generator.binomial()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 39,
+        "name": "np.blackman()",
+        "describe": "Return the Blackman window."
+    },
+    {
+        "id": 40,
+        "name": "np.block()",
+        "describe": "Assemble an nd-array from nested lists of blocks."
+    },
+    {
+        "id": 41,
+        "name": "np.bmat()",
+        "describe": "Build a matrix object from a string, nested sequence, or array."
+    },
+    {
+        "id": 42,
+        "name": "np.broadcast_arrays()",
+        "describe": "Broadcast any number of arrays against each other."
+    },
+    {
+        "id": 43,
+        "name": "np.broadcast_shapes()",
+        "describe": "Broadcast the input shapes into a single shape."
+    },
+    {
+        "id": 44,
+        "name": "np.broadcast_to()",
+        "describe": "Broadcast an array to a new shape."
+    },
+    {
+        "id": 45,
+        "name": "np.busday_count()",
+        "describe": "Counts the number of valid days between begindates andenddates, not including the day of enddates."
+    },
+    {
+        "id": 46,
+        "name": "np.busday_offset()",
+        "describe": "First adjusts the date to fall on a valid day according tothe roll rule, then applies offsets to the given datescounted in valid days."
+    },
+    {
+        "id": 47,
+        "name": "np.byte_bounds()",
+        "describe": "Returns pointers to the end-points of an array."
+    },
+    {
+        "id": 48,
+        "name": "Generator.bytes()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 49,
+        "name": "np.can_cast()",
+        "describe": "Returns True if cast between data types can occur according to thecasting rule.  If from is a scalar or array scalar, also returnsTrue if the scalar value can be cast without overflow or truncationto an integer."
+    },
+    {
+        "id": 50,
+        "name": "str.capitalize()",
+        "describe": "Capitalizes the first character of a string."
+    },
+    {
+        "id": 51,
+        "name": "str.center()",
+        "describe": "Centers a string within a specified width."
+    },
+    {
+        "id": 52,
+        "name": "Generator.chisquare()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 53,
+        "name": "Generator.choice()",
+        "describe": "which should be used in new code"
+    },
+    {
+        "id": 54,
+        "name": "np.choose()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 55,
+        "name": "np.column_stack()",
+        "describe": "Stack 1-D arrays as columns into a 2-D array."
+    },
+    {
+        "id": 56,
+        "name": "np.common_type()",
+        "describe": "Return a scalar type which is common to the input arrays."
+    },
+    {
+        "id": 57,
+        "name": "np.compress()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 58,
+        "name": "np.conjugate()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 59,
+        "name": "np.convolve()",
+        "describe": "Returns the discrete, linear convolution of two one-dimensional sequences."
+    },
+    {
+        "id": 60,
+        "name": "np.copy()",
+        "describe": "Creates a deep copy of an array."
+    },
+    {
+        "id": 61,
+        "name": "np.corrcoef()",
+        "describe": "Equivalent function in top-level NumPy module."
+    },
+    {
+        "id": 62,
+        "name": "np.correlate()",
+        "describe": "Cross-correlation of two 1-dimensional sequences."
+    },
+    {
+        "id": 63,
+        "name": "char.count()",
+        "describe": "Returns the number of occurrences of a substring in a string."
+    },
+    {
+        "id": 64,
+        "name": "ma.count_masked()",
+        "describe": "Count masked elements in array or along a given axis."
+    },
+    {
+        "id": 65,
+        "name": "np.cov()",
+        "describe": "Computes the covariance matrix of an array."
+    },
+    {
+        "id": 66,
+        "name": "np.cross()",
+        "describe": "Return the cross product of two (arrays of) vectors."
+    },
+    {
+        "id": 67,
+        "name": "np.cumprod()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 68,
+        "name": "np.cumsum()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 69,
+        "name": "np.datetime_as_string()",
+        "describe": "Convert an array of datetimes into an array of strings."
+    },
+    {
+        "id": 70,
+        "name": "np.datetime_data()",
+        "describe": "Get information about the step size of a date or time type."
+    },
+    {
+        "id": 71,
+        "name": "char.decode()",
+        "describe": "Decodes a byte string using the specified encoding."
+    },
+    {
+        "id": 72,
+        "name": "np.delete()",
+        "describe": "Return a new array with sub-arrays along an axis deleted. For a onedimensional array, this returns those entries not returned byarr[obj]."
+    },
+    {
+        "id": 73,
+        "name": "np.deprecate()",
+        "describe": "Issues a DeprecationWarning, adds warning to old_name\u2019sdocstring, rebinds old_name.__name__ and returns the newfunction object."
+    },
+    {
+        "id": 74,
+        "name": "np.deprecate_with_doc()",
+        "describe": "Deprecates a function and replaces its docstring."
+    },
+    {
+        "id": 75,
+        "name": "np.diag()",
+        "describe": "Equivalent function for ndarrays."
+    },
+    {
+        "id": 76,
+        "name": "np.diag_indices()",
+        "describe": "Return the indices to access the main diagonal of an array."
+    },
+    {
+        "id": 77,
+        "name": "np.diag_indices_from()",
+        "describe": "Return the indices to access the main diagonal of an n-dimensional array."
+    },
+    {
+        "id": 78,
+        "name": "np.diagflat()",
+        "describe": "Create a two-dimensional array with the flattened input as a diagonal."
+    },
+    {
+        "id": 79,
+        "name": "np.diagonal()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 80,
+        "name": "np.diff()",
+        "describe": "Calculate the n-th discrete difference along the given axis."
+    },
+    {
+        "id": 81,
+        "name": "Generator.dirichlet()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 82,
+        "name": "np.disp()",
+        "describe": "Display a message on a device."
+    },
+    {
+        "id": 83,
+        "name": "np.dsplit()",
+        "describe": "Split array into multiple sub-arrays along the 3rd axis (depth)."
+    },
+    {
+        "id": 84,
+        "name": "np.dstack()",
+        "describe": "Stack arrays in sequence depth wise (along third axis)."
+    },
+    {
+        "id": 85,
+        "name": "np.dtype()",
+        "describe": "Creates a data type object."
+    },
+    {
+        "id": 86,
+        "name": "np.ediff1d()",
+        "describe": "Equivalent function for ndarrays."
+    },
+    {
+        "id": 87,
+        "name": "np.einsum_path()",
+        "describe": "Evaluates the lowest cost contraction order for an einsum expression byconsidering the creation of intermediate arrays."
+    },
+    {
+        "id": 88,
+        "name": "np.empty()",
+        "describe": "Return a new array of given shape and type, without initializing entries."
+    },
+    {
+        "id": 89,
+        "name": "np.empty_like()",
+        "describe": "Return a new array with the same shape and type as a given array."
+    },
+    {
+        "id": 90,
+        "name": "char.encode()",
+        "describe": "Encodes a string using the specified encoding."
+    },
+    {
+        "id": 91,
+        "name": "char.endswith()",
+        "describe": "Checks if a string ends with a specified suffix."
+    },
+    {
+        "id": 92,
+        "name": "char.expandtabs()",
+        "describe": "Expands tab characters in a string to spaces."
+    },
+    {
+        "id": 93,
+        "name": "Generator.exponential()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 94,
+        "name": "np.extract()",
+        "describe": "Return the elements of an array that satisfy some condition."
+    },
+    {
+        "id": 95,
+        "name": "np.eye()",
+        "describe": "Equivalent array function."
+    },
+    {
+        "id": 96,
+        "name": "Generator.f()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 97,
+        "name": "np.fft()",
+        "describe": "For definition of the DFT and conventions used."
+    },
+    {
+        "id": 98,
+        "name": "np.fill_diagonal()",
+        "describe": "Fill the main diagonal of the given array of any dimensionality."
+    },
+    {
+        "id": 99,
+        "name": "MaskedArray.fill_value()",
+        "describe": "Return current fill value."
+    },
+    {
+        "id": 100,
+        "name": "char.find()",
+        "describe": "Finds the first occurrence of a substring in a string."
+    },
+    {
+        "id": 101,
+        "name": "np.find_common_type()",
+        "describe": "Determine common type following standard coercion rules."
+    },
+    {
+        "id": 102,
+        "name": "np.fix()",
+        "describe": "Round to nearest integer towards zero."
+    },
+    {
+        "id": 103,
+        "name": "ndarray.flat()",
+        "describe": "a flat iterator on the array."
+    },
+    {
+        "id": 104,
+        "name": "np.flatnonzero()",
+        "describe": "Return indices that are non-zero in the flattened version of a."
+    },
+    {
+        "id": 105,
+        "name": "matrix.flatten()",
+        "describe": "returns a similar output matrix but always a copy"
+    },
+    {
+        "id": 106,
+        "name": "np.flip()",
+        "describe": "Reverse the order of elements in an array along the given axis."
+    },
+    {
+        "id": 107,
+        "name": "np.fliplr()",
+        "describe": "Flip array in the left/right direction."
+    },
+    {
+        "id": 108,
+        "name": "np.flipud()",
+        "describe": "Flip array in the up/down direction."
+    },
+    {
+        "id": 109,
+        "name": "np.format_float_positional()",
+        "describe": "Format a floating-point scalar as a decimal string in positional notation."
+    },
+    {
+        "id": 110,
+        "name": "np.format_float_scientific()",
+        "describe": "Format a floating-point scalar as a decimal string in scientific notation."
+    },
+    {
+        "id": 111,
+        "name": "np.frombuffer()",
+        "describe": "Interpret a buffer as a 1-dimensional array."
+    },
+    {
+        "id": 112,
+        "name": "np.fromfile()",
+        "describe": "Construct an array from data in a text or binary file."
+    },
+    {
+        "id": 113,
+        "name": "np.fromfunction()",
+        "describe": "Construct an array by executing a function over each coordinate."
+    },
+    {
+        "id": 114,
+        "name": "np.fromiter()",
+        "describe": "Create a new 1-dimensional array from an iterable object."
+    },
+    {
+        "id": 115,
+        "name": "np.frompyfunc()",
+        "describe": "Takes an arbitrary Python function and returns a NumPy ufunc."
+    },
+    {
+        "id": 116,
+        "name": "np.fromregex()",
+        "describe": "Construct an array from a text file, using regular expression parsing."
+    },
+    {
+        "id": 117,
+        "name": "np.fromstring()",
+        "describe": "A new 1-D array initialized from text data in a string."
+    },
+    {
+        "id": 118,
+        "name": "np.full_like()",
+        "describe": "Return a full array with the same shape and type as a given array."
+    },
+    {
+        "id": 119,
+        "name": "Generator.gamma()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 120,
+        "name": "np.genfromtxt()",
+        "describe": "Load data from a text file, with missing values handled as specified."
+    },
+    {
+        "id": 121,
+        "name": "Generator.geometric()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 122,
+        "name": "np.geomspace()",
+        "describe": "Return numbers spaced evenly on a log scale (a geometric progression)."
+    },
+    {
+        "id": 123,
+        "name": "np.get_include()",
+        "describe": "Return the directory that contains the NumPy *.h header files."
+    },
+    {
+        "id": 124,
+        "name": "np.get_printoptions()",
+        "describe": "Return the current print options."
+    },
+    {
+        "id": 125,
+        "name": "np.getbufsize()",
+        "describe": "Return the size of the buffer used in ufuncs."
+    },
+    {
+        "id": 126,
+        "name": "np.geterr()",
+        "describe": "Get the current way of handling floating-point errors."
+    },
+    {
+        "id": 127,
+        "name": "np.geterrcall()",
+        "describe": "Return the current callback function used on floating-point errors."
+    },
+    {
+        "id": 128,
+        "name": "np.geterrobj()",
+        "describe": "Return the current object that defines floating-point error handling."
+    },
+    {
+        "id": 129,
+        "name": "np.gradient()",
+        "describe": "Return the gradient of an N-dimensional array."
+    },
+    {
+        "id": 130,
+        "name": "Generator.gumbel()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 131,
+        "name": "np.hamming()",
+        "describe": "Return the Hamming window."
+    },
+    {
+        "id": 132,
+        "name": "np.hanning()",
+        "describe": "Return the Hanning window."
+    },
+    {
+        "id": 133,
+        "name": "np.histogram2d()",
+        "describe": "Compute the bi-dimensional histogram of two data samples."
+    },
+    {
+        "id": 134,
+        "name": "np.histogram_bin_edges()",
+        "describe": "Function to calculate only the edges of the bins used by the histogramfunction."
+    },
+    {
+        "id": 135,
+        "name": "np.histogramdd()",
+        "describe": "Compute the multidimensional histogram of some data."
+    },
+    {
+        "id": 136,
+        "name": "Generator.hypergeometric()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 137,
+        "name": "np.i0()",
+        "describe": "Modified Bessel function of the first kind, order 0."
+    },
+    {
+        "id": 138,
+        "name": "np.imag()",
+        "describe": "Return the imaginary part of the complex argument."
+    },
+    {
+        "id": 139,
+        "name": "np.in1d()",
+        "describe": "Test whether each element of a 1-D array is also present in a second array."
+    },
+    {
+        "id": 140,
+        "name": "char.index()",
+        "describe": "Finds the first occurrence of a substring in a string and raises an exception if not found."
+    },
+    {
+        "id": 141,
+        "name": "np.indices()",
+        "describe": "Return an array representing the indices of a grid."
+    },
+    {
+        "id": 142,
+        "name": "np.info()",
+        "describe": "Get help information for a function, class, or module."
+    },
+    {
+        "id": 143,
+        "name": "np.inner()",
+        "describe": "Inner product of two arrays."
+    },
+    {
+        "id": 144,
+        "name": "np.insert()",
+        "describe": "Insert values along the given axis before the given indices."
+    },
+    {
+        "id": 145,
+        "name": "poly1d.integ()",
+        "describe": "equivalent method"
+    },
+    {
+        "id": 146,
+        "name": "Generator.integers()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 147,
+        "name": "np.interp()",
+        "describe": "One-dimensional linear interpolation."
+    },
+    {
+        "id": 148,
+        "name": "scipy.interpolate()",
+        "describe": "Provides interpolation functions for various data formats."
+    },
+    {
+        "id": 149,
+        "name": "linalg.inv()",
+        "describe": "Computes the inverse of a matrix."
+    },
+    {
+        "id": 150,
+        "name": "ma.isMaskedArray()",
+        "describe": "Test whether input is an instance of MaskedArray."
+    },
+    {
+        "id": 151,
+        "name": "np.is_busday()",
+        "describe": "Calculates which of the given dates are valid days, and which are not."
+    },
+    {
+        "id": 152,
+        "name": "char.isalnum()",
+        "describe": "Checks if all characters in a string are alphanumeric."
+    },
+    {
+        "id": 153,
+        "name": "char.isalpha()",
+        "describe": "Checks if all characters in a string are alphabetic."
+    },
+    {
+        "id": 154,
+        "name": "np.isclose()",
+        "describe": "Returns a boolean array where two arrays are element-wise equal within atolerance."
+    },
+    {
+        "id": 155,
+        "name": "np.iscomplex()",
+        "describe": "Returns a bool array, where True if input element is complex."
+    },
+    {
+        "id": 156,
+        "name": "np.iscomplexobj()",
+        "describe": "Check for a complex type or an array of complex numbers."
+    },
+    {
+        "id": 157,
+        "name": "char.isdecimal()",
+        "describe": "Checks if all characters in a string are decimal characters."
+    },
+    {
+        "id": 158,
+        "name": "char.isdigit()",
+        "describe": "Checks if all characters in a string are digits."
+    },
+    {
+        "id": 159,
+        "name": "np.isfortran()",
+        "describe": "Check if the array is Fortran contiguous but not C contiguous."
+    },
+    {
+        "id": 160,
+        "name": "np.isin()",
+        "describe": "Calculates element in test_elements, broadcasting over element only.Returns a boolean array of the same shape as element that is Truewhere an element of element is in test_elements and False otherwise."
+    },
+    {
+        "id": 161,
+        "name": "char.islower()",
+        "describe": "Checks if all characters in a string are lowercase."
+    },
+    {
+        "id": 162,
+        "name": "np.isneginf()",
+        "describe": "Test element-wise for negative infinity, return result as bool array."
+    },
+    {
+        "id": 163,
+        "name": "char.isnumeric()",
+        "describe": "Checks if all characters in a string are numeric characters."
+    },
+    {
+        "id": 164,
+        "name": "np.isposinf()",
+        "describe": "Test element-wise for positive infinity, return result as bool array."
+    },
+    {
+        "id": 165,
+        "name": "np.isreal()",
+        "describe": "Returns a bool array, where True if input element is real."
+    },
+    {
+        "id": 166,
+        "name": "np.isrealobj()",
+        "describe": "Return True if x is a not complex type or an array of complex numbers."
+    },
+    {
+        "id": 167,
+        "name": "np.isscalar()",
+        "describe": "Returns True if the type of element is a scalar type."
+    },
+    {
+        "id": 168,
+        "name": "np.issctype()",
+        "describe": "Determines whether the given object represents a scalar data-type."
+    },
+    {
+        "id": 169,
+        "name": "char.isspace()",
+        "describe": "Checks if all characters in a string are whitespace characters."
+    },
+    {
+        "id": 170,
+        "name": "np.issubclass_()",
+        "describe": "Determine if a class is a subclass of a second class."
+    },
+    {
+        "id": 171,
+        "name": "np.issubdtype()",
+        "describe": "Returns True if first argument is a typecode lower/equal in type hierarchy."
+    },
+    {
+        "id": 172,
+        "name": "np.issubsctype()",
+        "describe": "Determine if the first argument is a subclass of the second argument."
+    },
+    {
+        "id": 173,
+        "name": "char.istitle()",
+        "describe": "Checks if a string follows the rules of a title case."
+    },
+    {
+        "id": 174,
+        "name": "char.isupper()",
+        "describe": "Checks if all characters in a string are uppercase."
+    },
+    {
+        "id": 175,
+        "name": "np.ix_()",
+        "describe": "Construct an open mesh from multiple sequences."
+    },
+    {
+        "id": 176,
+        "name": "char.join()",
+        "describe": "Joins the elements of an iterable with a specified string separator."
+    },
+    {
+        "id": 177,
+        "name": "np.kaiser()",
+        "describe": "Return the Kaiser window."
+    },
+    {
+        "id": 178,
+        "name": "np.kron()",
+        "describe": "Kronecker product of two arrays."
+    },
+    {
+        "id": 179,
+        "name": "Generator.laplace()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 180,
+        "name": "np.lexsort()",
+        "describe": "Indirect stable sort on multiple keys."
+    },
+    {
+        "id": 181,
+        "name": "char.ljust()",
+        "describe": "Left-aligns a string within a specified width."
+    },
+    {
+        "id": 182,
+        "name": "np.load()",
+        "describe": "Load the files created by savez_compressed."
+    },
+    {
+        "id": 183,
+        "name": "np.loadtxt()",
+        "describe": "Load data from a text file."
+    },
+    {
+        "id": 184,
+        "name": "np.log()",
+        "describe": "Computes the natural logarithm of an array."
+    },
+    {
+        "id": 185,
+        "name": "np.log10()",
+        "describe": "Computes the base-10 logarithm of an array."
+    },
+    {
+        "id": 186,
+        "name": "np.log2()",
+        "describe": "Computes the base-2 logarithm of an array."
+    },
+    {
+        "id": 187,
+        "name": "Generator.logistic()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 188,
+        "name": "Generator.lognormal()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 189,
+        "name": "Generator.logseries()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 190,
+        "name": "np.lookfor()",
+        "describe": "Do a keyword search on docstrings."
+    },
+    {
+        "id": 191,
+        "name": "char.lower()",
+        "describe": "Converts all characters in a string to lowercase."
+    },
+    {
+        "id": 192,
+        "name": "char.lstrip()",
+        "describe": "Removes leading whitespace characters from a string."
+    },
+    {
+        "id": 193,
+        "name": "linalg.lstsq()",
+        "describe": "Computes a least-squares fit."
+    },
+    {
+        "id": 194,
+        "name": "np.mask_indices()",
+        "describe": "Return the indices to access (n, n) arrays, given a masking function."
+    },
+    {
+        "id": 195,
+        "name": "np.mat()",
+        "describe": "Interpret the input as a matrix."
+    },
+    {
+        "id": 196,
+        "name": "ma.maximum_fill_value()",
+        "describe": "Returns the maximum filling value for a given datatype."
+    },
+    {
+        "id": 197,
+        "name": "np.maximum_sctype()",
+        "describe": "Return the scalar type of highest precision of the same kind as the input."
+    },
+    {
+        "id": 198,
+        "name": "np.may_share_memory()",
+        "describe": "Determine if two arrays might share memory"
+    },
+    {
+        "id": 199,
+        "name": "np.memmap()",
+        "describe": "Creates a memory-mapped array stored in a binary file on disk."
+    },
+    {
+        "id": 200,
+        "name": "np.meshgrid()",
+        "describe": "Return coordinate matrices from coordinate vectors."
+    },
+    {
+        "id": 201,
+        "name": "np.mgrid()",
+        "describe": "Grid-shaped arrays of evenly spaced numbers in N-dimensions."
+    },
+    {
+        "id": 202,
+        "name": "np.min_scalar_type()",
+        "describe": "For scalar a, returns the data type with the smallest sizeand smallest scalar kind which can hold its value.  For non-scalararray a, returns the vector\u2019s dtype unmodified."
+    },
+    {
+        "id": 203,
+        "name": "ma.minimum_fill_value()",
+        "describe": "Returns the minimum filling value for a given datatype."
+    },
+    {
+        "id": 204,
+        "name": "np.mintypecode()",
+        "describe": "Return the character for the minimum-size type to which given types canbe safely cast."
+    },
+    {
+        "id": 205,
+        "name": "np.moveaxis()",
+        "describe": "Move axes of an array to new positions."
+    },
+    {
+        "id": 206,
+        "name": "np.msort()",
+        "describe": "Return a copy of an array sorted along the first axis."
+    },
+    {
+        "id": 207,
+        "name": "linalg.multi_dot()",
+        "describe": "Chained dot product."
+    },
+    {
+        "id": 208,
+        "name": "Generator.multinomial()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 209,
+        "name": "Generator.multivariate_normal()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 210,
+        "name": "np.nan_to_num()",
+        "describe": "Replace NaN with zero and infinity with large finite numbers (defaultbehaviour) or with the numbers defined by the user using the nan, posinf and/or neginf keywords."
+    },
+    {
+        "id": 211,
+        "name": "np.nanargmax()",
+        "describe": "Return the indices of the maximum values in the specified axis ignoringNaNs. For all-NaN slices ValueError is raised. Warning: theresults cannot be trusted if a slice contains only NaNs and -Infs."
+    },
+    {
+        "id": 212,
+        "name": "np.nanargmin()",
+        "describe": "Return the indices of the minimum values in the specified axis ignoringNaNs. For all-NaN slices ValueError is raised. Warning: the resultscannot be trusted if a slice contains only NaNs and Infs."
+    },
+    {
+        "id": 213,
+        "name": "np.nancumprod()",
+        "describe": "Return the cumulative product of array elements over a given axis treating Not aNumbers (NaNs) as one.  The cumulative product does not change when NaNs areencountered and leading NaNs are replaced by ones."
+    },
+    {
+        "id": 214,
+        "name": "np.nancumsum()",
+        "describe": "Return the cumulative sum of array elements over a given axis treating Not aNumbers (NaNs) as zero.  The cumulative sum does not change when NaNs areencountered and leading NaNs are replaced by zeros."
+    },
+    {
+        "id": 215,
+        "name": "np.nanmax()",
+        "describe": "Return the maximum of an array or maximum along an axis, ignoring anyNaNs.  When all-NaN slices are encountered a RuntimeWarning israised and NaN is returned for that slice."
+    },
+    {
+        "id": 216,
+        "name": "np.nanmean()",
+        "describe": "Compute the arithmetic mean along the specified axis, ignoring NaNs."
+    },
+    {
+        "id": 217,
+        "name": "np.nanmedian()",
+        "describe": "Compute the median along the specified axis, while ignoring NaNs."
+    },
+    {
+        "id": 218,
+        "name": "np.nanmin()",
+        "describe": "Return minimum of an array or minimum along an axis, ignoring any NaNs.When all-NaN slices are encountered a RuntimeWarning is raised andNan is returned for that slice."
+    },
+    {
+        "id": 219,
+        "name": "np.nanpercentile()",
+        "describe": "Compute the qth percentile of the data along the specified axis,while ignoring nan values."
+    },
+    {
+        "id": 220,
+        "name": "np.nanprod()",
+        "describe": "Return the product of array elements over a given axis treating Not aNumbers (NaNs) as ones."
+    },
+    {
+        "id": 221,
+        "name": "np.nanquantile()",
+        "describe": "Compute the qth quantile of the data along the specified axis,while ignoring nan values.Returns the qth quantile(s) of the array elements."
+    },
+    {
+        "id": 222,
+        "name": "np.nanstd()",
+        "describe": "Compute the standard deviation along the specified axis, whileignoring NaNs."
+    },
+    {
+        "id": 223,
+        "name": "np.nansum()",
+        "describe": "Return the sum of array elements over a given axis treating Not aNumbers (NaNs) as zero."
+    },
+    {
+        "id": 224,
+        "name": "np.nanvar()",
+        "describe": "Compute the variance along the specified axis, while ignoring NaNs."
+    },
+    {
+        "id": 225,
+        "name": "Generator.negative_binomial()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 226,
+        "name": "np.nested_iters()",
+        "describe": "Create nditers for use in nested loops"
+    },
+    {
+        "id": 227,
+        "name": "A.newbyteorder()",
+        "describe": "but different representation in memory"
+    },
+    {
+        "id": 228,
+        "name": "Generator.noncentral_chisquare()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 229,
+        "name": "Generator.noncentral_f()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 230,
+        "name": "np.nonzero()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 231,
+        "name": "Generator.normal()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 232,
+        "name": "np.obj2sctype()",
+        "describe": "Return the scalar dtype or NumPy equivalent of Python type of an object."
+    },
+    {
+        "id": 233,
+        "name": "np.ogrid()",
+        "describe": "Arrays of evenly spaced numbers in N-dimensions."
+    },
+    {
+        "id": 234,
+        "name": "matlib.ones()",
+        "describe": "Return a matrix of ones."
+    },
+    {
+        "id": 235,
+        "name": "np.ones_like()",
+        "describe": "Return an array of ones with the same shape and type as a given array."
+    },
+    {
+        "id": 236,
+        "name": "np.packbits()",
+        "describe": "Packs the elements of a binary-valued array into bits in a uint8 array."
+    },
+    {
+        "id": 237,
+        "name": "np.pad()",
+        "describe": "Pad an array."
+    },
+    {
+        "id": 238,
+        "name": "Generator.pareto()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 239,
+        "name": "ndarray.partition()",
+        "describe": "Method to sort an array in-place."
+    },
+    {
+        "id": 240,
+        "name": "Generator.permutation()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 241,
+        "name": "np.piecewise()",
+        "describe": "Evaluate a piecewise-defined function."
+    },
+    {
+        "id": 242,
+        "name": "np.place()",
+        "describe": "Change elements of an array based on conditional and input values."
+    },
+    {
+        "id": 243,
+        "name": "Generator.poisson()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 244,
+        "name": "np.poly()",
+        "describe": "Find the coefficients of a polynomial with the given sequence of roots."
+    },
+    {
+        "id": 245,
+        "name": "np.polyadd()",
+        "describe": "Find the sum of two polynomials."
+    },
+    {
+        "id": 246,
+        "name": "np.polyder()",
+        "describe": "Return the derivative of the specified order of a polynomial."
+    },
+    {
+        "id": 247,
+        "name": "np.polydiv()",
+        "describe": "Returns the quotient and remainder of polynomial division."
+    },
+    {
+        "id": 248,
+        "name": "np.polyfit()",
+        "describe": "Least squares polynomial fit."
+    },
+    {
+        "id": 249,
+        "name": "np.polyint()",
+        "describe": "Return an antiderivative (indefinite integral) of a polynomial."
+    },
+    {
+        "id": 250,
+        "name": "np.polymul()",
+        "describe": "Find the product of two polynomials."
+    },
+    {
+        "id": 251,
+        "name": "np.polysub()",
+        "describe": "Difference (subtraction) of two polynomials."
+    },
+    {
+        "id": 252,
+        "name": "np.polyval()",
+        "describe": "Evaluate a polynomial at specific values."
+    },
+    {
+        "id": 253,
+        "name": "np.power()",
+        "describe": "Raises an array to a specified power."
+    },
+    {
+        "id": 254,
+        "name": "np.printoptions()",
+        "describe": "Context manager for setting print options."
+    },
+    {
+        "id": 255,
+        "name": "np.prod()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 256,
+        "name": "np.promote_types()",
+        "describe": "Returns the data type with the smallest size and smallest scalarkind to which both type1 and type2 may be safely cast.The returned data type is always in native byte order."
+    },
+    {
+        "id": 257,
+        "name": "np.ptp()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 258,
+        "name": "np.put_along_axis()",
+        "describe": "Put values into the destination array by matching 1d index and data slices."
+    },
+    {
+        "id": 259,
+        "name": "np.putmask()",
+        "describe": "Changes elements of an array based on conditional and input values."
+    },
+    {
+        "id": 260,
+        "name": "np.quantile()",
+        "describe": "Compute the q-th quantile of the data along the specified axis."
+    },
+    {
+        "id": 261,
+        "name": "Generator.random()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 262,
+        "name": "np.ravel()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 263,
+        "name": "np.ravel_multi_index()",
+        "describe": "Converts a tuple of index arrays into an array of flatindices, applying boundary modes to the multi-index."
+    },
+    {
+        "id": 264,
+        "name": "Generator.rayleigh()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 265,
+        "name": "np.real()",
+        "describe": "equivalent function"
+    },
+    {
+        "id": 266,
+        "name": "np.real_if_close()",
+        "describe": "If input is complex with all imaginary parts close to zero, return real parts."
+    },
+    {
+        "id": 267,
+        "name": "char.replace()",
+        "describe": "Replaces occurrences of a substring with another substring in a string."
+    },
+    {
+        "id": 268,
+        "name": "np.require()",
+        "describe": "Return an ndarray of the provided type that satisfies requirements."
+    },
+    {
+        "id": 269,
+        "name": "np.resize()",
+        "describe": "Return a new array with the specified shape."
+    },
+    {
+        "id": 270,
+        "name": "np.result_type()",
+        "describe": "Returns the type that results from applying the NumPytype promotion rules to the arguments."
+    },
+    {
+        "id": 271,
+        "name": "char.rfind()",
+        "describe": "Finds the last occurrence of a substring in a string."
+    },
+    {
+        "id": 272,
+        "name": "char.rindex()",
+        "describe": "Finds the last occurrence of a substring in a string and raises an exception if not found."
+    },
+    {
+        "id": 273,
+        "name": "char.rjust()",
+        "describe": "Right-aligns a string within a specified width."
+    },
+    {
+        "id": 274,
+        "name": "np.roll()",
+        "describe": "Roll array elements along a given axis."
+    },
+    {
+        "id": 275,
+        "name": "np.rollaxis()",
+        "describe": "Roll the specified axis backwards, until it lies in a given position."
+    },
+    {
+        "id": 276,
+        "name": "np.roots()",
+        "describe": "Return the roots of a polynomial with coefficients given in p."
+    },
+    {
+        "id": 277,
+        "name": "np.rot90()",
+        "describe": "Rotate an array by 90 degrees in the plane specified by axes."
+    },
+    {
+        "id": 278,
+        "name": "ndarray.round()",
+        "describe": "equivalent method"
+    },
+    {
+        "id": 279,
+        "name": "np.round_()",
+        "describe": "Round an array to the given number of decimals."
+    },
+    {
+        "id": 280,
+        "name": "np.row_stack()",
+        "describe": "Stack arrays in sequence vertically (row wise)."
+    },
+    {
+        "id": 281,
+        "name": "str.rpartition()",
+        "describe": "Splits a string at the last occurrence of a separator and returns a tuple."
+    },
+    {
+        "id": 282,
+        "name": "char.rsplit()",
+        "describe": "Splits a string from the right side based on a specified separator."
+    },
+    {
+        "id": 283,
+        "name": "char.rstrip()",
+        "describe": "Removes trailing whitespace characters from a string."
+    },
+    {
+        "id": 284,
+        "name": "np.save()",
+        "describe": "Save a single array to a binary file in NumPy format."
+    },
+    {
+        "id": 285,
+        "name": "np.savetxt()",
+        "describe": "Save an array to a file as plain text."
+    },
+    {
+        "id": 286,
+        "name": "np.savez()",
+        "describe": "Save several arrays into an uncompressed .npz file format"
+    },
+    {
+        "id": 287,
+        "name": "np.savez_compressed()",
+        "describe": "Save several arrays into a single file in compressed .npz format."
+    },
+    {
+        "id": 288,
+        "name": "np.sctype2char()",
+        "describe": "Return the string representation of a scalar dtype."
+    },
+    {
+        "id": 289,
+        "name": "np.searchsorted()",
+        "describe": "Find indices where elements should be inserted to maintain order."
+    },
+    {
+        "id": 290,
+        "name": "np.select()",
+        "describe": "Return an array drawn from elements in choicelist, depending on conditions."
+    },
+    {
+        "id": 291,
+        "name": "MaskedArray.set_fill_value()",
+        "describe": "Equivalent method."
+    },
+    {
+        "id": 292,
+        "name": "np.set_printoptions()",
+        "describe": "Set printing options."
+    },
+    {
+        "id": 293,
+        "name": "np.set_string_function()",
+        "describe": "Set a Python function to be used when pretty printing arrays."
+    },
+    {
+        "id": 294,
+        "name": "np.setbufsize()",
+        "describe": "Set the size of the buffer used in ufuncs."
+    },
+    {
+        "id": 295,
+        "name": "np.seterr()",
+        "describe": "Set how floating-point errors are handled."
+    },
+    {
+        "id": 296,
+        "name": "np.seterrcall()",
+        "describe": "Set the floating-point error callback function or log object."
+    },
+    {
+        "id": 297,
+        "name": "np.seterrobj()",
+        "describe": "Set the object that defines floating-point error handling."
+    },
+    {
+        "id": 298,
+        "name": "np.setxor1d()",
+        "describe": "Find the set exclusive-or of two arrays."
+    },
+    {
+        "id": 299,
+        "name": "ndarray.shape()",
+        "describe": "Equivalent array method."
+    },
+    {
+        "id": 300,
+        "name": "np.shares_memory()",
+        "describe": "Determine if two arrays share memory."
+    },
+    {
+        "id": 301,
+        "name": "np.show_config()",
+        "describe": "Show libraries in the system on which NumPy was built."
+    },
+    {
+        "id": 302,
+        "name": "Generator.shuffle()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 303,
+        "name": "np.sinc()",
+        "describe": "Return the normalized sinc function."
+    },
+    {
+        "id": 304,
+        "name": "ndarray.size()",
+        "describe": "number of elements in array"
+    },
+    {
+        "id": 305,
+        "name": "ndarray.sort()",
+        "describe": "Method to sort an array in-place."
+    },
+    {
+        "id": 306,
+        "name": "np.sort_complex()",
+        "describe": "Sort a complex array using the real part first, then the imaginary part."
+    },
+    {
+        "id": 307,
+        "name": "np.source()",
+        "describe": "Print or write to a file the source code for a NumPy object."
+    },
+    {
+        "id": 308,
+        "name": "char.split()",
+        "describe": "Splits a string into a list based on a specified separator."
+    },
+    {
+        "id": 309,
+        "name": "char.splitlines()",
+        "describe": "Splits a string into a list of lines."
+    },
+    {
+        "id": 310,
+        "name": "np.sqrt()",
+        "describe": "Computes the square root of an array."
+    },
+    {
+        "id": 311,
+        "name": "np.stack()",
+        "describe": "Join a sequence of arrays along a new axis."
+    },
+    {
+        "id": 312,
+        "name": "Generator.standard_cauchy()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 313,
+        "name": "Generator.standard_exponential()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 314,
+        "name": "Generator.standard_gamma()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 315,
+        "name": "Generator.standard_normal()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 316,
+        "name": "Generator.standard_t()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 317,
+        "name": "char.startswith()",
+        "describe": "Checks if a string starts with a specified prefix."
+    },
+    {
+        "id": 318,
+        "name": "char.strip()",
+        "describe": "Removes leading and trailing whitespace characters from a string."
+    },
+    {
+        "id": 319,
+        "name": "np.sum()",
+        "describe": "Sum of array elements over a given axis."
+    },
+    {
+        "id": 320,
+        "name": "np.swapaxes()",
+        "describe": "Interchange two axes of an array."
+    },
+    {
+        "id": 321,
+        "name": "char.swapcase()",
+        "describe": "Swaps the case of characters in a string."
+    },
+    {
+        "id": 322,
+        "name": "np.take()",
+        "describe": "Take elements from an array along an axis."
+    },
+    {
+        "id": 323,
+        "name": "np.take_along_axis()",
+        "describe": "Take values from the input array by matching 1d index and data slices."
+    },
+    {
+        "id": 324,
+        "name": "np.tensordot()",
+        "describe": "Compute tensor dot product along specified axes."
+    },
+    {
+        "id": 325,
+        "name": "np.test()",
+        "describe": "Pytest test runner."
+    },
+    {
+        "id": 326,
+        "name": "char.title()",
+        "describe": "Converts a string to title case."
+    },
+    {
+        "id": 327,
+        "name": "ndarray.tofile()",
+        "describe": "Writes an array to a binary file."
+    },
+    {
+        "id": 328,
+        "name": "ndarray.tolist()",
+        "describe": "Converts an array to a nested list."
+    },
+    {
+        "id": 329,
+        "name": "np.trace()",
+        "describe": "Return the sum along diagonals of the array."
+    },
+    {
+        "id": 330,
+        "name": "char.translate()",
+        "describe": "Translates characters in a string using a translation table."
+    },
+    {
+        "id": 331,
+        "name": "np.transpose()",
+        "describe": "Reverse or permute the axes of an array; returns the modified array."
+    },
+    {
+        "id": 332,
+        "name": "np.trapz()",
+        "describe": "Integrate along the given axis using the composite trapezoidal rule."
+    },
+    {
+        "id": 333,
+        "name": "np.tri()",
+        "describe": "An array with ones at and below the given diagonal and zeros elsewhere."
+    },
+    {
+        "id": 334,
+        "name": "Generator.triangular()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 335,
+        "name": "np.tril()",
+        "describe": "Lower triangle of an array."
+    },
+    {
+        "id": 336,
+        "name": "np.tril_indices()",
+        "describe": "Return the indices for the lower-triangle of an (n, m) array."
+    },
+    {
+        "id": 337,
+        "name": "np.tril_indices_from()",
+        "describe": "Return the indices for the lower-triangle of arr."
+    },
+    {
+        "id": 338,
+        "name": "np.trim_zeros()",
+        "describe": "Trim the leading and/or trailing zeros from a 1-D array or sequence."
+    },
+    {
+        "id": 339,
+        "name": "np.triu()",
+        "describe": "Upper triangle of an array."
+    },
+    {
+        "id": 340,
+        "name": "np.triu_indices()",
+        "describe": "Return the indices for the upper-triangle of an (n, m) array."
+    },
+    {
+        "id": 341,
+        "name": "np.triu_indices_from()",
+        "describe": "Return the indices for the upper-triangle of arr."
+    },
+    {
+        "id": 342,
+        "name": "np.typename()",
+        "describe": "Return a description for the given data type code."
+    },
+    {
+        "id": 343,
+        "name": "Generator.uniform()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 344,
+        "name": "np.unpackbits()",
+        "describe": "Unpacks elements of a uint8 array into a binary-valued output array."
+    },
+    {
+        "id": 345,
+        "name": "np.unravel_index()",
+        "describe": "Converts a flat index or array of flat indices into a tupleof coordinate arrays."
+    },
+    {
+        "id": 346,
+        "name": "np.unwrap()",
+        "describe": "Unwrap by changing deltas between values to 2*pi complement."
+    },
+    {
+        "id": 347,
+        "name": "char.upper()",
+        "describe": "Converts all characters in a string to uppercase."
+    },
+    {
+        "id": 348,
+        "name": "np.vander()",
+        "describe": "Generate a Vandermonde matrix."
+    },
+    {
+        "id": 349,
+        "name": "np.vdot()",
+        "describe": "Return the dot product of two vectors."
+    },
+    {
+        "id": 350,
+        "name": "Generator.vonmises()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 351,
+        "name": "Generator.wald()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 352,
+        "name": "Generator.weibull()",
+        "describe": "which should be used for new code."
+    },
+    {
+        "id": 353,
+        "name": "np.who()",
+        "describe": "Print the NumPy arrays in the given dictionary."
+    },
+    {
+        "id": 354,
+        "name": "matlib.zeros()",
+        "describe": "Zero matrix."
+    },
+    {
+        "id": 355,
+        "name": "np.zeros_like()",
+        "describe": "Return an array of zeros with the same shape and type as a given array."
+    },
+    {
+        "id": 356,
+        "name": "char.zfill()",
+        "describe": "Pads a string with leading zeros to a specified width."
+    },
+    {
+        "id": 357,
+        "name": "Generator.zipf()",
+        "describe": "which should be used for new code."
+    }
+]

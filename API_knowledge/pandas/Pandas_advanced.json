@@ -1,0 +1,707 @@
+[
+    {
+        "id": 1,
+        "name": "pd.Series()",
+        "describe": "Creates a one-dimensional labeled array capable of holding any data type."
+    },
+    {
+        "id": 2,
+        "name": "df.add()",
+        "describe": "Addition of DataFrame and other, element-wise."
+    },
+    {
+        "id": 3,
+        "name": "df.add_prefix()",
+        "describe": "Prefix labels with string."
+    },
+    {
+        "id": 4,
+        "name": "df.add_suffix()",
+        "describe": "Suffix labels with string."
+    },
+    {
+        "id": 5,
+        "name": "df.aggregate()",
+        "describe": "Aggregate using one or more operations over the specified axis."
+    },
+    {
+        "id": 6,
+        "name": "df.all()",
+        "describe": "Return whether all elements are True, potentially over an axis."
+    },
+    {
+        "id": 7,
+        "name": "df.any()",
+        "describe": "Return whether any element is True, potentially over an axis."
+    },
+    {
+        "id": 8,
+        "name": "df.append()",
+        "describe": "Append rows of other to the end of caller, returning a new object."
+    },
+    {
+        "id": 9,
+        "name": "pd.array()",
+        "describe": "Create a pandas Array."
+    },
+    {
+        "id": 10,
+        "name": "df.asfreq()",
+        "describe": "Convert time series to specified frequency."
+    },
+    {
+        "id": 11,
+        "name": "df.assign()",
+        "describe": "Assign new columns to a DataFrame."
+    },
+    {
+        "id": 12,
+        "name": "df.at()",
+        "describe": "Access a single value for a row/column label pair."
+    },
+    {
+        "id": 13,
+        "name": "df.at_time()",
+        "describe": "Select values at particular time of day."
+    },
+    {
+        "id": 14,
+        "name": "df.attrs()",
+        "describe": "Dictionary of global attributes on this object."
+    },
+    {
+        "id": 15,
+        "name": "df.backfill()",
+        "describe": "Synonym for DataFrame.fillna() with method='bfill'."
+    },
+    {
+        "id": 16,
+        "name": "pd.bdate_range()",
+        "describe": "Return a fixed frequency DatetimeIndex."
+    },
+    {
+        "id": 17,
+        "name": "df.between_time()",
+        "describe": "Select values between particular times of the day."
+    },
+    {
+        "id": 18,
+        "name": "df.clip()",
+        "describe": "Trim values at input threshold(s)."
+    },
+    {
+        "id": 19,
+        "name": "df.columns()",
+        "describe": "The column labels of the DataFrame."
+    },
+    {
+        "id": 20,
+        "name": "df.combine()",
+        "describe": "Perform column-wise combine with another DataFrame."
+    },
+    {
+        "id": 21,
+        "name": "df.combine_first()",
+        "describe": "Update null elements with value in the same location in other."
+    },
+    {
+        "id": 22,
+        "name": "df.compare()",
+        "describe": "Compare to another DataFrame and show the differences."
+    },
+    {
+        "id": 23,
+        "name": "pd.concat()",
+        "describe": "Concatenate pandas objects along a particular axis."
+    },
+    {
+        "id": 24,
+        "name": "df.convert_dtypes()",
+        "describe": "Convert columns to best possible dtypes using dtypes supporting pd.NA."
+    },
+    {
+        "id": 25,
+        "name": "df.corrwith()",
+        "describe": "Compute pairwise correlation."
+    },
+    {
+        "id": 26,
+        "name": "df.count()",
+        "describe": "Count non-NA cells for each column or row."
+    },
+    {
+        "id": 27,
+        "name": "pd.crosstab()",
+        "describe": "Compute a simple cross tabulation of two (or more) factors."
+    },
+    {
+        "id": 28,
+        "name": "df.cummax()",
+        "describe": "Return cumulative maximum over a DataFrame or Series axis."
+    },
+    {
+        "id": 29,
+        "name": "df.cummin()",
+        "describe": "Return cumulative minimum over a DataFrame or Series axis."
+    },
+    {
+        "id": 30,
+        "name": "df.cumprod()",
+        "describe": "Return cumulative product over a DataFrame or Series axis."
+    },
+    {
+        "id": 31,
+        "name": "df.cumsum()",
+        "describe": "Return cumulative sum over a DataFrame or Series axis."
+    },
+    {
+        "id": 32,
+        "name": "pd.cut()",
+        "describe": "Bin values into discrete intervals."
+    },
+    {
+        "id": 33,
+        "name": "pd.date_range()",
+        "describe": "Return a fixed frequency DatetimeIndex."
+    },
+    {
+        "id": 34,
+        "name": "df.diff()",
+        "describe": "First discrete difference of element."
+    },
+    {
+        "id": 35,
+        "name": "df.div()",
+        "describe": "Floating division of DataFrame and other, element-wise."
+    },
+    {
+        "id": 36,
+        "name": "df.dot()",
+        "describe": "Compute the matrix multiplication between the DataFrame and other."
+    },
+    {
+        "id": 37,
+        "name": "df.dtypes()",
+        "describe": "Return the dtypes in the DataFrame."
+    },
+    {
+        "id": 38,
+        "name": "df.duplicated()",
+        "describe": "Return boolean Series denoting duplicate rows."
+    },
+    {
+        "id": 39,
+        "name": "df.eq()",
+        "describe": "Equal to of DataFrame and other, element-wise."
+    },
+    {
+        "id": 40,
+        "name": "df.equals()",
+        "describe": "Test whether two objects contain the same elements."
+    },
+    {
+        "id": 41,
+        "name": "df.eval()",
+        "describe": "Evaluate a string describing operations on DataFrame columns."
+    },
+    {
+        "id": 42,
+        "name": "df.explode()",
+        "describe": "Transform each element of a list-like to a row."
+    },
+    {
+        "id": 43,
+        "name": "pd.factorize()",
+        "describe": "Encode the object as an enumerated type or categorical variable."
+    },
+    {
+        "id": 44,
+        "name": "df.flags()",
+        "describe": "Get the properties associated with this pandas object."
+    },
+    {
+        "id": 45,
+        "name": "df.floordiv()",
+        "describe": "Integer division of DataFrame and other, element-wise."
+    },
+    {
+        "id": 46,
+        "name": "df.from_dict()",
+        "describe": "Construct DataFrame from dict of array-like or dicts."
+    },
+    {
+        "id": 47,
+        "name": "df.from_records()",
+        "describe": "Convert structured or record ndarray to DataFrame."
+    },
+    {
+        "id": 48,
+        "name": "df.ge()",
+        "describe": "Greater than or equal to of DataFrame and other, element-wise."
+    },
+    {
+        "id": 49,
+        "name": "pd.get_dummies()",
+        "describe": "Convert categorical variable into dummy/indicator variables."
+    },
+    {
+        "id": 50,
+        "name": "df.gt()",
+        "describe": "Greater than of DataFrame and other, element-wise."
+    },
+    {
+        "id": 51,
+        "name": "df.iat()",
+        "describe": "Access a single value for a row/column pair by integer position."
+    },
+    {
+        "id": 52,
+        "name": "df.idxmax()",
+        "describe": "Return index of first occurrence of maximum over requested axis."
+    },
+    {
+        "id": 53,
+        "name": "df.idxmin()",
+        "describe": "Return index of first occurrence of minimum over requested axis."
+    },
+    {
+        "id": 54,
+        "name": "df.iloc()",
+        "describe": "Purely integer-location based indexing for selection by position."
+    },
+    {
+        "id": 55,
+        "name": "df.index()",
+        "describe": "Return the index of the DataFrame."
+    },
+    {
+        "id": 56,
+        "name": "pd.infer_freq()",
+        "describe": "Infer the most likely frequency given the input index."
+    },
+    {
+        "id": 57,
+        "name": "pd.interval_range()",
+        "describe": "Return a fixed frequency IntervalIndex."
+    },
+    {
+        "id": 58,
+        "name": "df.isin()",
+        "describe": "Whether each element in the DataFrame is contained in values."
+    },
+    {
+        "id": 59,
+        "name": "df.isna()",
+        "describe": "Detect missing values."
+    },
+    {
+        "id": 60,
+        "name": "df.items()",
+        "describe": "Iterate over (column name, Series) pairs."
+    },
+    {
+        "id": 61,
+        "name": "df.iterrows()",
+        "describe": "Iterate over DataFrame rows as (index, Series) pairs."
+    },
+    {
+        "id": 62,
+        "name": "df.itertuples()",
+        "describe": "Iterate over DataFrame rows as namedtuples."
+    },
+    {
+        "id": 63,
+        "name": "pd.json_normalize()",
+        "describe": "Normalize semi-structured JSON data into a flat table."
+    },
+    {
+        "id": 64,
+        "name": "df.le()",
+        "describe": "Less than or equal to of DataFrame and other, element-wise."
+    },
+    {
+        "id": 65,
+        "name": "df.loc()",
+        "describe": "Access a group of rows and columns by label(s) or a boolean array."
+    },
+    {
+        "id": 66,
+        "name": "df.lt()",
+        "describe": "Less than of DataFrame and other, element-wise."
+    },
+    {
+        "id": 67,
+        "name": "df.mask()",
+        "describe": "Replace values where the condition is True."
+    },
+    {
+        "id": 68,
+        "name": "df.max()",
+        "describe": "Return the maximum of the values over the requested axis."
+    },
+    {
+        "id": 69,
+        "name": "df.mean()",
+        "describe": "Return the mean of the values over the requested axis."
+    },
+    {
+        "id": 70,
+        "name": "df.memory_usage()",
+        "describe": "Return the memory usage of each column in bytes."
+    },
+    {
+        "id": 71,
+        "name": "pd.merge_asof()",
+        "describe": "Perform an asof merge."
+    },
+    {
+        "id": 72,
+        "name": "pd.merge_ordered()",
+        "describe": "Perform merge with optional filling/interpolation."
+    },
+    {
+        "id": 73,
+        "name": "df.min()",
+        "describe": "Return the minimum of the values over the requested axis."
+    },
+    {
+        "id": 74,
+        "name": "df.mod()",
+        "describe": "Modulo of DataFrame and other, element-wise."
+    },
+    {
+        "id": 75,
+        "name": "df.mul()",
+        "describe": "Multiplication of DataFrame and other, element-wise."
+    },
+    {
+        "id": 76,
+        "name": "df.ne()",
+        "describe": "Not equal to of DataFrame and other, element-wise."
+    },
+    {
+        "id": 77,
+        "name": "df.nlargest()",
+        "describe": "Return the first n rows ordered by columns in descending order."
+    },
+    {
+        "id": 78,
+        "name": "df.notna()",
+        "describe": "Detect existing (non-missing) values."
+    },
+    {
+        "id": 79,
+        "name": "df.nsmallest()",
+        "describe": "Return the first n rows ordered by columns in ascending order."
+    },
+    {
+        "id": 80,
+        "name": "df.nunique()",
+        "describe": "Count distinct observations over requested axis."
+    },
+    {
+        "id": 81,
+        "name": "df.pad()",
+        "describe": "Synonym for DataFrame.fillna() with method='ffill'."
+    },
+    {
+        "id": 82,
+        "name": "pd.period_range()",
+        "describe": "Return a fixed frequency PeriodIndex."
+    },
+    {
+        "id": 83,
+        "name": "df.pipe()",
+        "describe": "Apply func(self, *args, **kwargs)."
+    },
+    {
+        "id": 84,
+        "name": "df.pivot()",
+        "describe": "Return reshaped DataFrame organized by given index / column values."
+    },
+    {
+        "id": 85,
+        "name": "df.pow()",
+        "describe": "Exponential power of DataFrame and other, element-wise."
+    },
+    {
+        "id": 86,
+        "name": "df.prod()",
+        "describe": "Return the product of the values over the requested axis."
+    },
+    {
+        "id": 87,
+        "name": "pd.qcut()",
+        "describe": "Quantile-based discretization function."
+    },
+    {
+        "id": 88,
+        "name": "df.quantile()",
+        "describe": "Return values at the given quantile over requested axis."
+    },
+    {
+        "id": 89,
+        "name": "df.query()",
+        "describe": "Query the columns of a DataFrame with a boolean expression."
+    },
+    {
+        "id": 90,
+        "name": "pd.read_clipboard()",
+        "describe": "Read text from clipboard and pass to read_csv."
+    },
+    {
+        "id": 91,
+        "name": "pd.read_feather()",
+        "describe": "Load a feather-format object from the file path."
+    },
+    {
+        "id": 92,
+        "name": "pd.read_fwf()",
+        "describe": "Read a table of fixed-width formatted lines into DataFrame."
+    },
+    {
+        "id": 93,
+        "name": "pd.read_gbq()",
+        "describe": "Load data from Google BigQuery."
+    },
+    {
+        "id": 94,
+        "name": "df.read_hdf()",
+        "describe": "Read from the store and close it if needed."
+    },
+    {
+        "id": 95,
+        "name": "pd.read_html()",
+        "describe": "Read HTML tables into a list of DataFrame objects."
+    },
+    {
+        "id": 96,
+        "name": "pd.read_json()",
+        "describe": "Convert a JSON string to pandas object."
+    },
+    {
+        "id": 97,
+        "name": "pd.read_orc()",
+        "describe": "Load an ORC object from the file path, returning a DataFrame."
+    },
+    {
+        "id": 98,
+        "name": "pd.read_parquet()",
+        "describe": "Load a parquet object from the file path, returning a DataFrame."
+    },
+    {
+        "id": 99,
+        "name": "pd.read_pickle()",
+        "describe": "Load pickled pandas object (or any object) from file."
+    },
+    {
+        "id": 100,
+        "name": "pd.read_sas()",
+        "describe": "Read SAS files stored as either XPORT or SAS7BDAT format."
+    },
+    {
+        "id": 101,
+        "name": "pd.read_spss()",
+        "describe": "Reads a file in SPSS format and returns a DataFrame."
+    },
+    {
+        "id": 102,
+        "name": "pd.read_sql()",
+        "describe": "Reads SQL query or database table into a DataFrame."
+    },
+    {
+        "id": 103,
+        "name": "pd.read_sql_query()",
+        "describe": "Reads SQL query into a DataFrame."
+    },
+    {
+        "id": 104,
+        "name": "pd.read_sql_table()",
+        "describe": "Reads SQL database table into a DataFrame."
+    },
+    {
+        "id": 105,
+        "name": "pd.read_stata()",
+        "describe": "Reads Stata file into DataFrame."
+    },
+    {
+        "id": 106,
+        "name": "pd.read_table()",
+        "describe": "Reads general delimited file into DataFrame."
+    },
+    {
+        "id": 107,
+        "name": "df.reindex()",
+        "describe": "Conforms DataFrame to new index with optional filling logic."
+    },
+    {
+        "id": 108,
+        "name": "df.reindex_like()",
+        "describe": "Returns a DataFrame with matching indices as other DataFrame."
+    },
+    {
+        "id": 109,
+        "name": "df.rename_axis()",
+        "describe": "Sets the name of the axis for the index or columns."
+    },
+    {
+        "id": 110,
+        "name": "df.resample()",
+        "describe": "Resamples time-series data."
+    },
+    {
+        "id": 111,
+        "name": "df.round()",
+        "describe": "Rounds a DataFrame to a variable number of decimal places."
+    },
+    {
+        "id": 112,
+        "name": "df.sample()",
+        "describe": "Returns a random sample of items from an axis of object."
+    },
+    {
+        "id": 113,
+        "name": "df.select_dtypes()",
+        "describe": "Returns a subset of a DataFrame's columns based on the column dtypes."
+    },
+    {
+        "id": 114,
+        "name": "df.set_flags()",
+        "describe": "Returns a new object with flags set."
+    },
+    {
+        "id": 115,
+        "name": "df.shape()",
+        "describe": "Returns a tuple representing the dimensionality of the DataFrame."
+    },
+    {
+        "id": 116,
+        "name": "df.shift()",
+        "describe": "Shifts index by desired number of periods with an optional time freq."
+    },
+    {
+        "id": 117,
+        "name": "pd.show_versions()",
+        "describe": "Provides a utility to show versions of pandas and dependencies."
+    },
+    {
+        "id": 118,
+        "name": "df.stack()",
+        "describe": "Stacks the prescribed level(s) from columns to index."
+    },
+    {
+        "id": 119,
+        "name": "df.std()",
+        "describe": "Returns sample standard deviation over requested axis."
+    },
+    {
+        "id": 120,
+        "name": "df.sub()",
+        "describe": "Subtraction of DataFrame and other, element-wise."
+    },
+    {
+        "id": 121,
+        "name": "df.sum()",
+        "describe": "Returns the sum of the values over the requested axis."
+    },
+    {
+        "id": 122,
+        "name": "pd.test()",
+        "describe": "Runs tests under tests directory."
+    },
+    {
+        "id": 123,
+        "name": "pd.timedelta_range()",
+        "describe": "Returns a fixed frequency TimedeltaIndex."
+    },
+    {
+        "id": 124,
+        "name": "pd.to_datetime()",
+        "describe": "Converts argument to datetime."
+    },
+    {
+        "id": 125,
+        "name": "df.to_feather()",
+        "describe": "Writes out the binary feather-format for DataFrame."
+    },
+    {
+        "id": 126,
+        "name": "pandas_gbq.to_gbq()",
+        "describe": "Writes a DataFrame to a Google BigQuery table."
+    },
+    {
+        "id": 127,
+        "name": "df.to_hdf()",
+        "describe": "Writes the contained data to an HDF5 file using HDFStore."
+    },
+    {
+        "id": 128,
+        "name": "pd.to_numeric()",
+        "describe": "Converts argument to a numeric type."
+    },
+    {
+        "id": 129,
+        "name": "df.to_parquet()",
+        "describe": "Writes a DataFrame to the binary parquet format."
+    },
+    {
+        "id": 130,
+        "name": "df.to_pickle()",
+        "describe": "Pickles (serializes) object to file."
+    },
+    {
+        "id": 131,
+        "name": "df.to_stata()",
+        "describe": "Writes DataFrame into Stata dta file."
+    },
+    {
+        "id": 132,
+        "name": "df.to_string()",
+        "describe": "Renders a DataFrame to a console-friendly tabular output."
+    },
+    {
+        "id": 133,
+        "name": "pd.to_timedelta()",
+        "describe": "Converts argument to timedelta."
+    },
+    {
+        "id": 134,
+        "name": "df.transform()",
+        "describe": "Calls func on self producing a DataFrame with transformed values."
+    },
+    {
+        "id": 135,
+        "name": "df.truediv()",
+        "describe": "Floating division of DataFrame and other, element-wise."
+    },
+    {
+        "id": 136,
+        "name": "pd.unique()",
+        "describe": "Finds the unique elements of an array."
+    },
+    {
+        "id": 137,
+        "name": "df.unstack()",
+        "describe": "Pivots a level of the (necessarily hierarchical) index labels."
+    },
+    {
+        "id": 138,
+        "name": "df.value_counts()",
+        "describe": "Returns object containing counts of unique values."
+    },
+    {
+        "id": 139,
+        "name": "df.where()",
+        "describe": "Returns an object of same shape as self and whose corresponding entries are from self where cond is True and otherwise are from other."
+    },
+    {
+        "id": 140,
+        "name": "pd.wide_to_long()",
+        "describe": "Unpivots a DataFrame from wide to long format."
+    },
+    {
+        "id": 141,
+        "name": "df.xs()",
+        "describe": "Returns a cross-section (row(s) or column(s)) from the DataFrame."
+    }
+]
