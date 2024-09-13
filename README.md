@@ -2,6 +2,10 @@
 
 This script generates SFT datasets for Code using a Domain-Specific Language (DSL) approach across multiple (opt.) repositories.
 
+
+## Detail
+[API-guided Dataset Synthesis to Finetune Large Code Models](https://arxiv.org/abs/2408.08343)
+
 ## Data availablity
 
 For the API information, we release them in `./API_knowledge`
